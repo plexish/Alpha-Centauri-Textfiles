@@ -1,0 +1,117 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Defaulters
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... Defaults
+;
+
+#DEFAULTS
+Defaulters, the defaults, defaults, M, 2, De Fault, M, -1, 0, 0, 0, 0, 
+  TECH, Indust, IMMUNITY, MORALE, IMPUNITY, TALENT, ROBUST, POLICE, PENALTY, GROWTH, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1
+  Politics, Democratic, EFFIC
+  Politics, Police State, nil
+  default, default
+  Assistant name, Scientist name, Assistant city
+  Mr, good adjective for the leader, Bad adjective for the leader, good adjective for the followers, Bad adjective for the followers, 
+  Worst adjective for the leader
+  make a faction file 
+  to make a faction file
+  make a faction file
+  make a faction file
+  are making a faction file
+  making a faction file
+  making a faction file
+  making bad faction files
+  faction file, M1
+  faction files, M2
+  faction file cause, M1
+  faction file tax, M1
+  making better faction files
+  my faction file boys
+  faction file's laws
+
+#BASES
+default base1
+default base2
+default base3
+default base4
+default base5
+default base6
+default base7
+default base8
+default base9
+default base10
+default base11
+default base12
+default base13
+default base14
+default base15
+default base16
+default base17
+default base18
+default base19
+default base20
+default base21
+default base22
+default base23
+default base24
+default base25
+default base26
+default base27
+#END
+
+#WATERBASES
+default waterbase1
+default waterbase2
+default waterbase3
+default waterbase4
+default waterbase5
+default waterbase6
+default waterbase7
+default waterbase8
+#END
+
+#BLURB
+The new default blurb dont need no more symboles: simply edit
+the blurb text as is
+^
+^
+^   -- ANX
+^      "readme file"
+^
+^
+
+#DATALINKS1
+^LEADER: {ANX }
+^BACKGROUND: {Acedit homepage at http://www.sidgames.com/acedit}
+^AGENDA: {make a faction file editor}
+^TECH: {Industrial base}
+^
+
+#DATALINKS2
+^++ECONOMY: {acedit is freeware}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"ok let's stop this stupid war but  you may learn to make better
+faction files ..."
+
+"yeah i agree"
+"no...your default  faction will be destroyed"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Do you wanna made the peace with a default faction $TITLE0 $NAME1
+(and see readme.txt for better explanation) ?"
+
+"sure $NAME3"
+"not at all, your default faction don't interest me"
+
+
+# ; This line must remain at end of file
