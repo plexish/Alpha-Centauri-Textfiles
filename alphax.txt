@@ -19,58 +19,71 @@
 ; FUNDAMENTAL RULES
 ;   You will find that many of the items on this list have been
 ;   finely balanced: small changes can have drastic effects on
-;   gameplay.
+;   gameplay.  Assigning values outside the bounds placed in braces
+;   may cause bugs or crashes.
+;
+; Details regarding the various rules codes can be found in the associated "codes keys" document.
 ;
 #RULES
-3,       ; Movement rate along roads
-2,       ; Nutrient intake requirement for citizens
-3,2      ; Numerator & Denominator for artillery fire damage
-2,       ; Max artillery range (larger will break multiplayer)
-8,       ; Max airdrop range w/o orbital insertion
-10,      ; Nutrient cost multiplier
-10,      ; Minerals cost multiplier
+3,       ; Movement rate along roads {1 to over 2 billion, but anything over 999/maximum unit speed will cause display bugs}
+2,       ; Nutrient intake requirement for citizens {-128 to 127}
+1,       ; Drones induced by Genejack factory {-128 to 127}
+0,       ; Drone rules code {1 to 63}
+10,      ; Nutrient cost multiplier {1 to 127}
+10,      ; Minerals cost multiplier {1 to 127}
+3,2      ; Numerator & Denominator for artillery fire damage {0 to 32767, 1 to 32767}
+2,       ; Max artillery range {1 to 20; effects of values over 2 on multiplayer games are unknown}
+5,       ; Minimum base size to support specialists {1 to 127}
+8,       ; Max airdrop range w/o orbital insertion {1 to 32767}
 100,     ; Technology discovery rate as a percentage of standard
-1,       ; Limits mineral increase for mine without road in square
--1,      ; Nutrient effect in mine square (0 or -1)
-5,       ; Minimum base size to support specialists
-1,       ; Drones induced by Genejack factory
-7,       ; Population limit w/o hab complex
-14,      ; Population limit w/o hab dome
-50,      ; Extra percentage cost of prototype LAND unit
-50,      ; Extra percentage cost of prototype SEA unit
-50,      ; Extra percentage cost of prototype AIR unit
-3,2,     ; Psi combat offense-to-defense ratio (LAND unit defending)
-1,1,     ; Psi combat offense-to-defense ratio (SEA unit defending)
-1,1,     ; Psi combat offense-to-defense ratio (AIR unit defending)
-10,      ; Players’ starting energy reserves
-25,      ; Combat % -> intrinsic base defense
-0,       ; Combat % -> attacking along road
-0,       ; Combat % -> for attacking from higher elevation
-0,       ; Combat penalty % -> attacking from lower elevation
-25,      ; Combat % -> Mobile unit in open ground
-0,       ; Combat % -> Defend vs. mobile in rough
-25,      ; Combat % -> Infantry vs. Base
-50,      ; Combat penalty % -> attack after airdrop
-25,      ; Combat % -> Fanatic attack bonus
-50,      ; Combat % -> Land based guns vs. ship artillery bonus
-25,      ; Combat % -> Artillery bonus per level of altitude
-50,      ; Combat % -> Trance bonus defending vs. psi
-50,      ; Combat % -> Empath Song bonus attacking vs. psi
-50,      ; Combat penalty % -> Air superiority unit vs. ground unit
-100,     ; Combat % -> Air superiority unit vs. air unit
-50,      ; Combat penalty % -> Non-combat unit defending vs. combat unit
-50,      ; Combat % -> Comm Jammer unit defending vs. mobile unit
-100,     ; Combat % -> Bonus vs. ships caught in port
-100,     ; Combat % -> AAA bonus vs. air units
-25,      ; Combat % -> Defend in range of friendly Sensor
-10,      ; Combat % -> Psi attack bonus/penalty per +PLANET
-50,      ; Retool percent penalty for production change
-2,       ; Retool strictness (0 = Always Free, 1 = Free in Category, 2 = Free if Project, 3 = Never Free)
-10,      ; Retool exemption (first X minerals not affected by penalty)
-20,      ; Minimum # of turns between councils
-5,       ; Minerals for harvesting forest
-8,       ; Territory: max distance from base
-20,      ; Turns to corner Global Energy Market
+1,       ; Maximum mineral increase for mine without road in square (does not include +1 for rocky) {-128 to 127}
+-1,      ; Nutrient effect in mine square {-128 to 127, but the AI doesn't know how to handle anything but -1 and 0}
+-1,      ; Nutrients granted by condenser {-128 to 127; negative numbers add +50% instead}
+7,       ; Population limit w/o hab complex {1 to 127}
+14,      ; Population limit w/o hab dome {1 to 127}
+50,      ; Extra percentage cost of prototype LAND unit {-32768 to 32767}
+50,      ; Extra percentage cost of prototype SEA unit {-32768 to 32767}
+50,      ; Extra percentage cost of prototype AIR unit {-32768 to 32767}
+3,2,     ; Psi combat offense-to-defense ratio (LAND unit defending) {0 to 32767 for offense, 1 to 32767 for defense}
+1,1,     ; Psi combat offense-to-defense ratio (SEA unit defending) {0 to 32767 for offense, 1 to 32767 for defense}
+1,1,     ; Psi combat offense-to-defense ratio (AIR unit defending) {0 to 32767 for offense, 1 to 32767 for defense}
+10,      ; Players' starting energy reserves {0 to 32767}
+25,      ; Combat % -> intrinsic base defense {-100 to 32767}
+0,       ; Combat % -> attacking along road {-100 to 32767; bugged (applies to all attacks)}
+0,       ; Combat % -> for attacking from higher elevation {-100 to 32767}
+0,       ; Combat % -> defending against lower elevation {-100 to 32767}
+25,      ; Combat % -> Mobile unit in open ground {-100 to 32767}
+0,       ; Combat % -> Defend vs. mobile in rough {-100 to 32767}
+25,      ; Combat % -> Infantry vs. Base {-100 to 32767}
+50,      ; Combat penalty % -> attack after airdrop {-32768 to 100}
+25,      ; Combat % -> Fanatic attack bonus {-100 to 32767}
+50,      ; Combat % -> Land based guns vs. ship artillery bonus {-100 to 32767}
+25,      ; Combat % -> Artillery bonus per level of altitude {-100 to 32767}
+50,      ; Combat % -> Trance bonus defending vs. psi {-100 to 32767}
+50,      ; Combat % -> Empath Song bonus attacking vs. psi {-100 to 32767}
+50,      ; Combat penalty % -> Air superiority unit vs. ground unit {-32768 to 100}
+100,     ; Combat % -> Air superiority unit vs. air unit {-100 to 32767}
+50,      ; Combat penalty % -> Non-combat unit defending vs. combat unit {-32768 to 100}
+50,      ; Combat % -> Comm Jammer unit defending vs. mobile unit {-100 to 32767}
+100,     ; Combat % -> Bonus vs. ships caught in port {-100 to 32767}
+100,     ; Combat % -> AAA bonus vs. air units {-100 to 32767}
+25,      ; Combat % -> Defend in range of friendly Sensor {-100 to 32767}
+10,      ; Combat % -> Psi attack bonus/penalty per +PLANET {-32768 to 32767}
+5,       ; Minerals for harvesting forest {-128 to 127}
+50,10    ; Retool percent penalty and exempt minerals for production change from unit to unit {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between units and facilities {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption from facility to facility {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between units and satellites/stockpile energy {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between facilities and satellites/stockpile energy {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between satellites/stockpile energy {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between units and secret projects {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between facilities and secret projects {0 to 100, 0 to 32767}
+50,10    ; Retool penalty and exemption between satellites/stockpile energy and secret projects {0 to 100, 0 to 32767}
+0,0      ; Retool penalty and exemption between secret projects {0 to 100, 0 to 32767}
+0,0      ; Retool penalty and exemption within a category with skunkworks in base (if better) {0 to 100, 0 to 32767}
+20,      ; Minimum # of turns between councils {0 to 32767}
+8,       ; Territory: max distance from base {0 to 127}
+20,      ; Turns to corner Global Energy Market {1 to 127}
 CentPsi, ; Technology to improve fungus squares
 CentPsi, ; Technology to ease fungus movement
 CentEmp, ; Technology to build roads in fungus
@@ -81,19 +94,69 @@ EnvEcon, ; Technology to allow 3 energy in a square
 Gravity, ; Technology to allow orbital insertion w/o Space Elevator
 EcoEng2, ; Technology for +1 mining platform bonus
 PlaEcon, ; Technology for economic victory
-1,       ; If non-zero, probe teams can steal technologies
-1,       ; If non-zero, humans can always contact each other in net games
-1,       ; If non-zero, humans can always contact each other in hotseat/email games
-50,      ; Maximum % damage inflicted by arty versus units in base/bunker
-99,      ; Maximum % damage inflicted by arty versus units in open
-100,     ; Maximum % damage inflicted by arty versus units at sea
-1, 1     ; Numerator/Denominator for frequency of global warming (1,2 would be “half” normal warming).
-2100     ; Normal starting year
-2600     ; Normal ending year for lowest 3 difficulty levels
-2500     ; Normal ending year for highest 3 difficulty levels
-1        ; If non-zero, obliterating a base counts as an atrocity
-10       ; Size of base for subspace generator
-6        ; Number of subspace generators needed
+Disable, ; Technology to convoy all three resources
+Disable, ; Technology to convoy all three resources outside of base radius
+Disable, ; Technology to double effectiveness of ECM and AAA abilities
+1,       ; If non-zero, probe teams can steal technologies {under -2 billion to over 2 billion}
+1,       ; If non-zero, humans can always contact each other in net games {under -2 billion to over 2 billion}
+1,       ; If non-zero, humans can always contact each other in hotseat/email games {under -2 billion to over 2 billion}
+50,      ; Maximum % damage inflicted by arty versus units in base/bunker {0 to 100}
+99,      ; Maximum % damage inflicted by arty versus units in open {0 to 100}
+100,     ; Maximum % damage inflicted by arty versus units at sea {0 to 100}
+1, 1     ; Numerator/Denominator for frequency of global warming (1,2 would be "half" normal warming). {0 to 32767, 1 to 32767}
+2100     ; Normal starting year {under -2 billion to over 2 billion}
+2600     ; Normal ending year for lowest 3 difficulty levels {under -2 billion to over 2 billion}
+2500     ; Normal ending year for highest 3 difficulty levels {under -2 billion to over 2 billion}
+1        ; If non-zero, obliterating a base counts as an atrocity {under -2 billion to over 2 billion}
+10       ; Size of base for subspace generator {1 to 32767}
+6        ; Number of subspace generators needed {0 to 32767}
+8        ; Bonus borehole ecodamage {-32768 to 32767}
+6        ; Bonus mirror ecodamage {-32768 to 32767}
+4        ; Bonus condenser ecodamage {-32768 to 32767}
+0        ; If non-zero, borehole count per base is squared when determining ecodamage {under -2 billion to over 2 billion}
+0,       ; If non-zero, bonus ecodamage is not affected by PLANET rating or clean minerals {under -2 billion to over 2 billion}
+16,      ; Starting "clean minerals" {-32768 to 32767}
+1,       ; CM per fungal pop {-32768 to 32767}
+1,       ; CM per relevant facility {-32768 to 32767}
+5,       ; Extra "virtual minerals" per relevant atrocity/missile {-32768 to 32767}
+0,       ; If non-zero, fungal pops reduce the effects of atrocities/missiles but do not increase CM {under -2 billion to over 2 billion}
+0,       ; If non-zero, ecodamage is based off Planet Busters rather than major atrocities {under -2 billion to over 2 billion}
+1,       ; Mineral divisor for ecodamage (applied before clean minerals) {1 to 32767}
+3,       ; PLANET multiplier at 0 PLANET rating {-128 to 127}
+1,       ; Minimum PLANET multiplier {0 to 127}
+6,       ; Maximum PLANET multiplier {minimum rating to 127}
+300,     ; Ecodamage divisor {1 to over 2 billion}
+0,       ; Extra ecodamage per base {-32768 to 32767}
+1,       ; Ecodamage in nearest base to reduce chance of worm capture {0 to 255}
+1,       ; Ecodamage in nearest base to prevent worm capture {0 to 255, but no less than previous value}
+10,      ; Upgrade cost per row of new unit (plus per square of rows if not prototyped) {-32768 to 32767}
+0,       ; Upgrade discount per row of old unit {-32768 to 32767}
+0,       ; Upgrade cost per 1/16 square of new unit rows {-32768 to 32767}
+0,       ; Upgrade discount per 1/16 square of old unit rows {-32768 to 32767}
+10,      ; Upgrade cost per weapon difference {-32768 to 32767}
+10,      ; Upgrade cost per armor difference {-32768 to 32767}
+10,      ; Planetpearls multiplier {-32768 to 32767}
+2,       ; Bonus speed per reactor for needlejets {-128 to 127}
+0,       ; Bonus speed per reactor for copters {-128 to 127}
+2,       ; Bonus speed per reactor for gravships {-128 to 127}
+2,       ; Bonus speed per reactor for missiles {-128 to 127}
+0,       ; Convoy resource penalty  {-128 to 127}
+8,       ; Unit cost formula code {0 to 31, see codes keys list for details.}
+1,       ; If non-zero, recalculate base statistics after each change for non-AI {under -2 billion to over 2 billion}
+0,       ; If non-zero, resource/landmark bonuses apply for fungus for all resources that would be more than 0 anyway {under -2 billion to over 2 billion}
+5,       ; Pacifism rules code for units in owner's territory or in bases {0 to 15}
+11,      ; Pacifism rules code for units in pact brother's territory {0 to 15}
+11,      ; Pacifism rules code for units in unowned territory or with truce/treaty but no pact {0 to 15}
+11,      ; Pacifism rules code for units in enemy territory {0 to 15}
+1,       ; Conventional missile rules code {1 to 7}
+10,      ; Minerals carried over to next item {0 to 32767, or -1 for unlimited}
+0,       ; If nonzero, a base can build more than one item per turn if it has enough production {under -2 billion to over 2 billion}
+255,     ; Support divisor {0 to 255}
+1,       ; If nonzero, enables enhanced information {under -2 billion to over 2 billion}
+10,      ; Minerals for new base {0 to 255}
+10,      ; Minerals to avoid starting-from-scratch penalty to hurry cost {0 to 255}
+4,       ; Rows of minerals to avoid secondary penalty to hurry cost for secret projects {0 to 255}
+2,       ; Talents granted by Paradise garden {0 to 127, or -128 to -1 for fraction of base size: -1 means equal to size, -2 means size/2, etc.}
 
 
 ;
@@ -730,10 +793,10 @@ The Self-Aware Colony,        50, 0, HAL9000, Disable,  Maintenance Halved; Extr
 Clinical Immortality,         50, 0, NanEdit, Disable,  Extra Talent Every Base,         0, 0, 1, 1, 0,
 The Space Elevator,           50, 0, Solids,  Disable,  Energy +100%/Orbital Cost Halved,0, 0, 2, 2, 0,
 The Singularity Inductor,     60, 0, ConSing, Disable,  Quantum Converter Every Base,    0, 1, 1, 1, 0,
-The Bulk Matter Transmitter,  60, 0, Matter,  Disable,  +2 Minerals Every Base,          0, 1, 1, 1, 0,
+The Bulk Matter Transmitter,  60, 0, Matter,  Disable,  +50% Minerals Every Base,        0, 1, 1, 1, 0,
 The Telepathic Matrix,        60, 0, Eudaim,  Disable,  No More Drone Riots; +2 PROBE,   0, 1, 0, 0, 1,
 The Voice of Planet,          60, 0, Thresh,  Disable,  Begins Ascent To Transcendence,  0,-2, 2, 2, 1,
-The Ascent to Transcendence, 200, 0, Thresh,  Disable,  End of Singular Sentience Era,   0, 0, 2, 2, 2,
+The Ascent to Transcendence, 200, 0, None,    Disable,  End of Singular Sentience Era,   0, 0, 2, 2, 2,
 The Manifold Harmonics,       50, 0, SecMani, Disable,  Bonus Resources In Fungus,      -1, 0, 1, 2, 2,
 The Nethack Terminus,         40, 0, HAL9000, Disable,  Stronger Probe Teams,            0, 1, 2, 1, 1,
 The Cloudbase Academy,        30, 0, MindMac, Disable,  Faster/Stronger Air Units,       1, 1, 0, 0, 0,
