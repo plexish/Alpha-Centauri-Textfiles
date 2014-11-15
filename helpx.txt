@@ -168,6 +168,9 @@ Terraform
 ^Units with drop pods may make orbital insertions.
 ^+1 Mineral bonus for all Mining Platforms.
 ^Economic Victory allowed.
+^Multiresource convoys allowed inside base radius
+^Multiresource convoys not restricted to base radius.
+^Effectiveness of ECM and AAA abilities doubled.
 ^Diplomatic Victory allowed.
 ^Formers can execute the "$TERRAFORM0" order.
  
@@ -342,8 +345,8 @@ output of base square.
 #; Perimeter defense
 #HELPFAC4
 Increases defense multiplier of base to one against ground attacks. 
-^This effectively increases defensive bonus by +75% 
-^(or +175% when combined with a $LINK<Tachyon Field=100005>).
+^This effectively increases defensive bonus by +100% 
+^(or +200% when combined with a $LINK<Tachyon Field=100005>).
 Defense bonus does not apply against $LINK<Psi Attacks=15>.
 ^
 Also protects against population loss from the last defender destroyed.
@@ -351,7 +354,7 @@ Also protects against population loss from the last defender destroyed.
 #; Tachyon field
 #HELPFAC5
 Increases defense multiplier of base to one against all attacks. 
-^This effectively increases defensive bonus by +75% or +175% when combined with 
+^This effectively increases defensive bonus by +100% or +200% when combined with 
 $LINK<Perimeter Defense=100004>, $LINK<Naval Yard=100028> or $LINK<Aerospace Complex=100029>.
 ^
 Does not apply against $LINK<Psi Attacks=15>.
