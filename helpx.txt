@@ -11,11 +11,11 @@
 ; GooglyBoogly changes 2008 v1.0 - 1.2
 ; #ABILDESC5 scramble for needlejets only, added air -50% vs ground penalty, air drop protection, clarified +100% bonus ability and added ground-sea combat quirk
 ; #ABILDESC9 prevents disengagement too
-; #ABILDESC14 Trained upgrade discrepency to high morale log
-; #ABILDESC22 doesnt work if police are not allowed
+; #ABILDESC14 Trained upgrade discrepancy to high morale log
+; #ABILDESC22 doesn't work if police are not allowed
 ; #ABILDESC24 added morale link, noted bonus non-native
 ; #ABILDESC26 noted cargo capture
-; #ABILDESC20 can be used against other race without repurcussions, only eco damage
+; #ABILDESC20 can be used against other race without repercussions, only eco damage
 ; #CHASSISDESC1 added disengagement link
 ; #CHASSISDESC5 needlejet may only attack once per turn
 ; #HELPEFFECT4 +Def only if in base
@@ -35,7 +35,7 @@
 ; #HELPFAC20 mentioned robotic assembly plant prereq and added link to eco damage
 ; #HELPFAC24 hab complex gives +7 cap, 
 ; #HELPFAC25 mentioned 127 pop cap 
-; #HELPFAC26 pressume dome doesn't stack with recycling tanks
+; #HELPFAC26 pressure dome doesn't stack with recycling tanks
 ; #HELPFAC28 naval yard Does not apply against Psi Attacks
 ; #HELPFAC29 mentioned drop pod protection, added drop pod link, Does not apply against Psi Attacks
 ; #HELPFAC31, 32 mentioned additional clean limit,added link to eco damage, prereq centauri preserve
@@ -47,14 +47,14 @@
 ; #HELPPROJ29 +50%mins/base, not +2
 ; #HELPPROJ33 changed display order from: N E M to N M E to match game
 ; #HELPTERRALAND4 added forest defensive bonus, noted non-rocky expansion, noted increase road terraform time
-; #HELPTERRALAND5 noted Cantauri Empathy prereq for road fungus construction 
+; #HELPTERRALAND5 noted Centauri Empathy prereq for road fungus construction 
 ; #HELPTERRALAND6 noted Centauri Psi prereq for mag tube fungus construction
 ; #HELPTERRALAND7 noted collateral damage prevention, and lack of self-destruction protection noted Centauro psi prereq for fungus
 ; #HELPTERRALAND8 noted Centauri Psi prereq for airbase fungus construction 
 ; #HELPTERRALAND9 Fixed display glitch
 ; #HELPTERRALAND14 Any rivers flowing into a borehole will go down the hole. (DilithiumDad)
 ; #HELPTERRALAND15 adjacent rivers not allowed, bug report added (MoSe)
-; #;MAKEFUNGUS noted that resource bonuses/improvements dont do anything in fungus (ex borehole)
+; #;MAKEFUNGUS noted that resource bonuses/improvements don't do anything in fungus (ex borehole)
 ; #;MINE noted nutrient reduction
 ; #HELPTERRASEA0 noted that kelp grows too, and can also drive out fungus
 ; #HELPTERRALAND9 updated sensor array to cover bonuses within and without territory
@@ -117,6 +117,10 @@
 ;
 ; In progress:
 ; Removed “you” and other direct references to the reader.
+;
+; Uploaded to wiki for edit history tracking, see http://alphacentauri2.info/mediawiki/index.php?title=Helpx.txt&action=history for changelog
+; This version was last updated: {{REVISIONYEAR}} / {{REVISIONMONTH}} / {{REVISIONDAY}}
+;
 ; <End of text>
  
 #HELPCATS
@@ -661,8 +665,8 @@ In addition your non-native units may heal completely in fungus.
  
 #; The Maritime Control Center
 #HELPPROJ10
-Increases the movement rate of all naval units by two. 
-^(including $LINK<Isles of the Deep=30009>), and $LINK<Sealurks=30014>), 
+Increases the movement rate of all naval units by two 
+(including $LINK<Isles of the Deep=30009> and $LINK<Sealurks=30014>). 
 ^Counts as a $LINK<Naval Yard=100028> at every one of your bases.
  
 #; The Planetary Datalinks
@@ -702,7 +706,7 @@ the $LINK<Algorithmic Enhancement=80028> special ability.
 Reduces effect of industry on Planet's ecology at all of your bases.
 Additionally, the $LINK<Fungus=14> confers on all of your units the same combat
 benefits normally reserved for alien lifeforms.
-Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
+^Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
  
 #; The Cyborg Factory
 #HELPPROJ17
@@ -744,7 +748,7 @@ on Social Engineering table.
 All of your bases enter a permanent state of Population Boom and
 will grow every turn provided $LINK<NUTRIENT=41> output
 is sufficient and $LINK<Hab facilities=100024> are adequate.
-The negative effects of the $LINK<Power=120012> and $LINK<Thought
+^The negative effects of the $LINK<Power=120012> and $LINK<Thought
 Control=120019> social engineering choices are eliminated.
  
 #; The Self-Aware Colony
@@ -776,8 +780,9 @@ $LINK<ecological effects=26> of mineral production.
  
 #; The Bulk Matter Transmitter
 #HELPPROJ29
-$LINK<+50% MINERALS=42> at every base.
-^(bonus additive with other facilities) 
+$LINK<+50% MINERALS=42> at every base 
+(before facility multipliers are applied, and the multipliers are do not boost 
+these extra minerals). 
  
 #; The Telepathic Matrix
 #HELPPROJ30
@@ -1725,7 +1730,7 @@ eliminated when they attack.
 #WEAPONDESC0
 {Hand Weapons}
 ^Weapon Mode: {Projectile}
-^Ammo: 7.62mm UN standard
+^Ammo: 7.62mm U.N. standard
 ^Muzzle velocity: 1100 mps
 ^Rate of fire: Varies; max 120\min
 ^Max range: 550 m
