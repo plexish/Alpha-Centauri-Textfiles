@@ -1115,11 +1115,13 @@ units.
 {POLICE} represents your society's tolerance for police control and
 restrictions on personal freedom. A high score allows you to use
 military units as police to suppress $LINK<drone riots=9>. A low score will
-cause increasing tension when your military units are away from home.
+cause increasing tension when your military units are away from home. Air
+Combat units (except those with the Air Superiority ability) count as away
+from territory even when within your territory.
 ^
 ^-5, Two extra drones for each military unit away from territory
 ^-4, Extra drone for each military unit away from territory
-^-3, Extra drone if more than one military unit away from territory
+^-3, Extra drone for each military unit away from territory after first
 ^-2, Cannot use military units as police. No nerve stapling.
 ^-1, One police unit allowed. No nerve stapling.
 ^ 0, Can use one military unit as police
