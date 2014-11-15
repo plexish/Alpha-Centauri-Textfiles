@@ -403,7 +403,7 @@ Highest Alpha Centauri Score wins.
 #x -5
 #y -5
 $NAME3, a new era of struggle and opportunity awaits you. The
-UN Starship Unity has arrived in the Alpha Centauri system
+U.N. Starship Unity has arrived in the Alpha Centauri system
 after a forty year voyage. All contact with Earth has been
 lost. After Captain Garland's assassination by an unknown assailant,
 the crew mutinied and split into factions. In the ensuing conflict, some seized
@@ -1820,20 +1820,119 @@ War between the $FACTION0 and the $FACTION1!
 #caption Operations Director
 $BASENAME0 has reached its maximum population until a $FACILITY1 is built.
 
-#RETOOLPENALTY2
+#RETOOLPENALTY7
 #xs 400
 #caption Operations Director
-Switching production now
+While our Skunkworks reduces the penalty
+for switching production now, there is
+still a $NUM0% retooling penalty.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY7A
+#xs 400
+#caption Operations Director
+While our Skunkworks reduces the penalty
+for switching production now, there is
+still a $NUM0% retooling penalty for all
+but the first $NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY6
+#xs 400
+#caption Operations Director
+Switching production from a $TYPE3 to
+Stockpile Energy carries a $NUM0% 
+retooling penalty.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY6A
+#xs 400
+#caption Operations Director
+Switching production from a $TYPE3 to
+Stockpile Energy carries a $NUM0% 
+retooling penalty for all but the first
+$NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY5
+#xs 400
+#caption Operations Director
+Switching production carries a $NUM0% 
+retooling penalty.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY5A
+#xs 400
+#caption Operations Director
+Switching production carries a $NUM0% 
+retooling penalty for all but the first
+$NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY4
+#xs 400
+#caption Operations Director
+Switching production within a category
 carries a $NUM0% retooling penalty.
 $NUM2 minerals would be lost.
 
 Keep making $ITEM0.
 Retool for $ITEM1.
 
-#RETOOLPENALTY1
+#RETOOLPENALTY4A
 #xs 400
 #caption Operations Director
-Switching production categories in mid-course
+Switching production within a category 
+carries a $NUM0% retooling penalty for 
+all but the first $NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY3
+#xs 400
+#caption Operations Director
+Switching production categories
+carries a $NUM0% retooling penalty.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY3A
+#xs 400
+#caption Operations Director
+Switching production categories 
+carries a $NUM0% retooling penalty for 
+all but the first $NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY2
+#xs 400
+#caption Operations Director
+Switching production between $TYPES4
 carries a $NUM0% retooling penalty.
 $NUM2 minerals would be lost.
 
@@ -1843,9 +1942,19 @@ Retool for $ITEM1.
 #RETOOLPENALTY2A
 #xs 400
 #caption Operations Director
-Switching production in mid-course
-carries a $NUM0% retooling penalty
-for all but the first $NUM1 minerals.
+Switching production between $TYPES4
+carries a $NUM0% retooling penalty for 
+all but the first $NUM1 minerals.
+$NUM2 minerals would be lost.
+
+Keep making $ITEM0.
+Retool for $ITEM1.
+
+#RETOOLPENALTY1
+#xs 400
+#caption Operations Director
+Switching production from a $TYPE3 to a 
+$TYPE4 carries a $NUM0% retooling penalty.
 $NUM2 minerals would be lost.
 
 Keep making $ITEM0.
@@ -1854,14 +1963,13 @@ Retool for $ITEM1.
 #RETOOLPENALTY1A
 #xs 400
 #caption Operations Director
-Switching production categories in mid-course
-carries a $NUM0% retooling penalty for all
-but the first $NUM1 minerals. $NUM2 minerals would
-be lost.
+Switching production from a $TYPE3 to a
+$TYPE4 carries a $NUM0% retooling penalty 
+for all but the first $NUM1 minerals.
+$NUM2 minerals would be lost.
 
 Keep making $ITEM0.
 Retool for $ITEM1.
-
 
 #NOABILITY
 #xs 400
@@ -2673,7 +2781,7 @@ into your hands."
 #caption $CAPTION7
 "As part of my grand planetary vision I shall transmit to you,
 gratis, my data on {$TECH0.} Guard this knowledge carefully, and do
-not forget my generousity."
+not forget my generosity."
 
 #TECHSLAVE
 #xs 440
@@ -3243,7 +3351,7 @@ Now you shall pay for your crimes!"
 #VENDETTA10
 #xs 440
 #caption $CAPTION7
-"Your crimes against humanity are unforgiveable, $NAME1.
+"Your crimes against humanity are unforgivable, $NAME1.
 The world shall soon rejoice at your destruction."
 
 #VENDETTA11
@@ -3399,7 +3507,7 @@ I am scarcely intimidated."
 
 ## Translator's note:
 ## The two entries below (REALLYBROKE, DROIDS) are based on the
-## player's (possibly eroneous) statement that:
+## player's (possibly erroneous) statement that:
 ## "I declare our Pact of Brotherhood NULL AND VOID". (see DIPLOMENU)
 ## FULL OF DROIDS and the AI's deadpan response can be improvised.
 
@@ -4149,7 +4257,7 @@ Pay $NUM0 credits.
 send me {$NUM0 energy credits} in honor of our
 longtime friendship?"
 
-"No. Cease this parasitic snivelling at once!"
+"No. Cease this parasitic sniveling at once!"
 Give $NUM0 credits.
 "$NUM1 credits and not a joule more."
 
@@ -4352,11 +4460,11 @@ Consult Datalinks.
 #xs 440
 #caption $CAPTION7
 "$TITLE1 $NAME2, I am concerned that you appear to be withholding
-scientific data in violation of the UN Charter for this mission. Please
+scientific data in violation of the U.N. Charter for this mission. Please
 release your files on {$TECH0} to me at once!"
 
 #DEMANDTECH11A
-"Ha! Perhaps you should ask the UN to invoke 'sanctions'! Ha ha ha!"
+"Ha! Perhaps you should ask the U.N. to invoke 'sanctions'! Ha ha ha!"
 "How could that have slipped my mind? I shall transmit at once."
 "As you wish, but I'll require $NUM0 credits to cover my expenses."
 "And you will reciprocate with your own data on $TECH6?"
@@ -4839,7 +4947,7 @@ with these seditious slogans, and now I must renounce our $PACT2!"
 #caption $CAPTION7
 "$TITLE0 $NAME1, your so-called 'Democracy' is a godless, immoral,
 garbage heap abuzz with indecent, obscene, and even outright criminal
-activity. Since you have refused to clean up this cess pool yourself,
+activity. Since you have refused to clean up this cesspool yourself,
 it becomes my moral duty to renounce our $PACT2!"
 
 #SOCIAL0CAT3GOOD
@@ -4855,7 +4963,7 @@ trust your conscience rests easy in the hands of the good Lord."
 It pains me to see an educated person pointlessly cripple
 $<1:himself:herself::> with the pathetic fantasy of a creator
 and afterlife. Will you not put aside medieval mythology and
-join the rest of us in the third millenium?"
+join the rest of us in the third millennium?"
 
 #SOCIAL0CAT3BAD2
 #xs 440
@@ -4863,7 +4971,7 @@ join the rest of us in the third millenium?"
 "$TITLE0 $NAME1, it pains me to see you supporting fundamentalist
 zealotry at the expense of intellectual progress, human dignity,
 and virtually any other worthwhile value. Let remind you that we
-are living in the third millenium, and urge you to put your religion
+are living in the third millennium, and urge you to put your religion
 aside as the relic that it is."
 
 #SOCIAL0CAT3WAR1
@@ -4933,7 +5041,7 @@ before such an unjust system can take root on this young world!"
 #SOCIAL1CAT1WAR3
 #xs 440
 #caption $CAPTION7
-"Your systematic rape of Planet's limited resources is unforgiveable,
+"Your systematic rape of Planet's limited resources is unforgivable,
 $TITLE0 $NAME1. Since you have failed to heed my warnings on this
 matter, I see no other choice but to use military force to put an end
 to the environmental crimes you commit in the name of market economics.
@@ -6283,7 +6391,7 @@ experience to bypass such a countermeasure.
 #DECIPHER
 #xs 440
 #caption Operations Director
-Do you wish a quick, general search, or a thorough, risky targetted
+Do you wish a quick, general search, or a thorough, risky targeted
 search?
 
 Just get me something useful. ($CHANCES1)
@@ -6320,7 +6428,7 @@ The $<M1:$FACTIONADJ2> probe team has downloaded our world map!
 #ADVVIRUS
 #xs 440
 #caption Operations Director
-Do you require a targetted virus, or will widespread havoc be
+Do you require a targeted virus, or will widespread havoc be
 sufficient?
 
 Just stir things up in there. ($CHANCES1)
@@ -6831,7 +6939,7 @@ $MINDWORMS1 have destroyed a $TERRAINIMPROVEMENT2 near $BASENAME0!
 #xs 440
 #caption Protocol Director
 $TITLE0 $NAME1 has committed an atrocity against $TITLE2 $NAME3!
-In accordance with the Compact, $NUM0 years of economic sanctions
+In accordance with the U.N. Charter, $NUM0 years of economic sanctions
 have been imposed.
 
 #ATROCITY1
@@ -7794,21 +7902,21 @@ either $NUM0 energy credits or your files on $TECH0."
 #BUYVOTEABSTAIN2
 #xs 440
 #caption $CAPTION7
-"To buy even my abstension on this issue, you'll
+"To buy even my abstention on this issue, you'll
 have to come up with either $NUM0 energy credits or
 your files on both $TECH0 and $TECH1."
 
 #BUYVOTEABSTAIN3
 #xs 440
 #caption $CAPTION7
-"To buy even my abstension on this issue, you'll
+"To buy even my abstention on this issue, you'll
 have to come up with either $NUM0 energy credits or
 your files on $TECH0, $TECH1, and $TECH4."
 
 #BUYVOTEABSTAIN4
 #xs 440
 #caption $CAPTION7
-"To buy even my abstension on this issue, you'll
+"To buy even my abstention on this issue, you'll
 have to come up with either $NUM0 energy credits or
 your files on $TECH0, $TECH1, $TECH4, and $TECH5."
 
@@ -7986,7 +8094,7 @@ Yes.
 #xs 440
 #wave 8
 #caption Too Many Landmarks
-Only 56 landmarks at a time are permitted.
+Only $NUM0$ landmarks at a time are permitted.
 
 #LANDMARK
 #xs 440
@@ -9754,7 +9862,7 @@ Transfer control.
 #GOTUNIT
 #xs 440
 #caption Operations Director
-$TITLE1 $NAME2 of the $FACTION3 has transfered a unit
+$TITLE1 $NAME2 of the $FACTION3 has transferred a unit
 to our control near $BASENAME4.
 
 #GAVEUNIT
@@ -9898,14 +10006,14 @@ Enter Password:
 #GOTUNITDEFEND
 #xs 440
 #caption Operations Director
-$TITLE1 $NAME2 of the $FACTION3 has transfered a unit
+$TITLE1 $NAME2 of the $FACTION3 has transferred a unit
 to our control near $BASENAME4, to help us defend our
 territory against aggression.
 
 #GOTUNITOFFEND
 #xs 440
 #caption Operations Director
-$TITLE1 $NAME2 of the $FACTION3 has transfered a unit
+$TITLE1 $NAME2 of the $FACTION3 has transferred a unit
 to our control near $BASENAME4, to help us attack our
 mutual enemies.
 
@@ -9975,10 +10083,10 @@ are sold.
 #DEMO7
 #xs 440
 #caption Sid Meier's Alien Crossfire DEMO
-^^Continue Mankindís Struggle To Colonize An Alien World
+^^Continue Mankind”≥ Struggle To Colonize An Alien World
 ^
-Welcome to this demo of Sid Meierís Alien Crossfire, the official Expansion
-Pack for Sid Meierís Alpha Centauri. As a new era dawns on Planet, the human
+Welcome to this demo of Sid Meier”≥ Alien Crossfire, the official Expansion
+Pack for Sid Meier”≥ Alpha Centauri. As a new era dawns on Planet, the human
 colonists must deal with both the emergence of five new factions,
 and the arrival of a new alien threat. In this demo you can experience both of 
 these new events, by playing a 100 turn game as either the new Nautilus Pirates
@@ -9995,7 +10103,7 @@ For more details see the splash screen when you exit the game.
 To begin the game please select either "Quick Start" or "Start Game"
 from the menu which follows.
 ^
-© 1999 Electronic Arts.  All Rights reserved. Alien Crossfire is a trademark of Electronic Arts 
+…†1999 Electronic Arts.  All Rights reserved. Alien Crossfire is a trademark of Electronic Arts 
 in the U.S. and/or other countries. Alpha Centauri is a trademark of Firaxis Games, Inc.
 
 #CUSTOMMAP
@@ -10353,7 +10461,7 @@ under the new Planetary Overlords.
 #xs 440
 #caption RESONANCE COMMUNICATOR COMPLETE
 $TITLE0 $NAME1 of the $FACTION2 has constructed a Resonance Communicator! An overwhelming 
-force of $FACTION2 ships appears in orbit, signalling the END of your faction's habitation
+force of $FACTION2 ships appears in orbit, signaling the END of your faction's habitation
 on Planet. You have FAILED in your quest for Planetary domination, and now face the 
 terrifying might of your new Planetary Overlords...
 
