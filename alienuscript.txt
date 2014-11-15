@@ -503,7 +503,7 @@ Pact now: Does not aid Progenitor."
 #REJPACTNOBRIBE
 #xs 440
 #caption $CAPTION7
-"Value to you: immense. Value to Progenitor: miniscule.
+"Value to you: immense. Value to Progenitor: minuscule.
 Equality of bargain: non-existent."
 
 #REJPACTBADBRIBE
@@ -1560,7 +1560,7 @@ Pay $NUM0 credits.
 "$PETPROJECTS9: require emergency funding. Request: {$NUM0 energy credits.}
 Reason: binding friendship."
 
-"No. Cease this parasitic snivelling at once!"
+"No. Cease this parasitic sniveling at once!"
 Give $NUM0 credits.
 "$NUM1 credits and not a joule more."
 
@@ -2011,7 +2011,7 @@ Sign Treaty.
 #ENERGYTREATY
 #xs 440
 #caption $CAPTION7
-"Further enducement: {$NUM0 credit} contribution: your
+"Further inducement: {$NUM0 credit} contribution: your
 $PETPROJECTS2?"
 
 Sign treaty.
@@ -2698,7 +2698,7 @@ Withdraw forces to nearest base.
 #xs 440
 #caption $CAPTION7
 "Your forces: encroachment: Progenitor territory.
-Our Treaty of Friendship: demands withdrawl.
+Our Treaty of Friendship: demands withdrawal.
 Consequence of failure: military action!"
 
 Withdraw troops to nearest base.
@@ -2754,7 +2754,7 @@ Suggestion: immediate removal."
 #caption $CAPTION7
 "Your forces: too near: $BASENAME0.
 Suggestion: immediate removal. Consequence of
-failure: annhilations: aforementioned forces."
+failure: annihilations: aforementioned forces."
 
 #GOAWAY2
 #xs 440
@@ -2830,7 +2830,7 @@ idiom: not for sale at any price!"
 #NOBASESWAP
 #xs 440
 #caption $CAPTION7
-"$BASENAME0: exceedingly valuble. Your offer: insufficient.
+"$BASENAME0: exceedingly valuable. Your offer: insufficient.
 $NUM0 energy credits: possible amount: transfer
 control: $BASENAME0."
 

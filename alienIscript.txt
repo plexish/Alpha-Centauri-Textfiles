@@ -56,7 +56,7 @@ It contains primitive supplies that can be repurposed for $NUM0 energy credits!
 #xs 320
 #wave 0
 #caption Operations Director
-An {alien device} has inadvertantly tapped an underground river!
+An {alien device} has inadvertently tapped an underground river!
 
 #GOODYMINE
 #xs 320
@@ -1151,7 +1151,7 @@ Consult Datalinks.
 Consult Datalinks.
 
 #DEMANDTECH11A
-"Not understand: UN."
+"Not understand: U.N."
 "Honor: human charter."
 "Help: gladly. Expenses: $NUM0. Fervent hope: you pay."
 "Fairness: both ways. You: provide $TECH6."
