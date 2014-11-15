@@ -7,7 +7,7 @@
 ;
 
 #LABELS
-1131
+1138
 Mission Year
 Funds
 Moving
@@ -350,7 +350,7 @@ Fungus
 Hasty
 Surprise
 Nerve Gas
-Gaian Psi
+Psi Bonus
 Dream Twist
 Neural Amp
 Ocean Shelf
@@ -1046,7 +1046,7 @@ PROTO: Scenario Editor function; toggles "prototype complete" flag.
 Draw
 Allied Objectives
 RETIRE ALL
-RETIRE ALL: Scenario Editor fuction; clears all player prototypes.
+RETIRE ALL: Scenario Editor function; clears all player prototypes.
 Change owner
 Change former owner
 Iron Man
@@ -1139,5 +1139,12 @@ Caretakers
 Usurpers
 guarantee that the Manifold Experiment remains pristine
 exploit the power of the Manifold experiment
+Receives support
+facility
+facilities
+satellite
+satellites
+secret project
+secret projects
 
 # ; This line must remain at end of file
