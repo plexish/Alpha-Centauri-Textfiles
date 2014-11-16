@@ -60,8 +60,7 @@
 ; #HELPTERRALAND9 updated sensor array to cover bonuses within and without territory
 ; #HELPTERRALAND12 updated condenser to list nutrient restriction lifting feature
 ; #HELPTERRALAND18 noted use for allowing base placement
-; #UNITDESC1 noted terraform level under formers ability. Will always enter fungus -Credit: vyeh
-<span class="mw-poem-indented" style="display: inline-block; margin-left: 1em;"> <- Cannot find datalinks access for sea former info, added it to #UNITDESC1 - but Link DOES NOT WORK</span>
+; #UNITDESC1 noted terraform level under formers ability. Will always enter fungus -Credit: vyeh <- Cannot find datalinks access for sea former info, added it to #UNITDESC1 - but Link DOES NOT WORK
 ; #UNITDESC4 noted that sea formers can raise/lower terrain too 
 ; #UNITDESC5 facility and SP bonuses apply
 ; #UNITDESC6 noted ZOC immunity, only single unit or base added bug report
@@ -784,7 +783,7 @@ $LINK<ecological effects=26> of mineral production.
 #; The Bulk Matter Transmitter
 #HELPPROJ29
 $LINK<+50% MINERALS=42> at every base 
-(before facility multipliers are applied, and the multipliers are do not boost 
+(before facility multipliers are applied, and the multipliers do not boost 
 these extra minerals). 
  
 #; The Telepathic Matrix
