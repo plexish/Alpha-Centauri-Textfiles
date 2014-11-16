@@ -485,7 +485,7 @@ Troop Transport,      Transport,      0, 7, 4, -1, DocFlex,
 Supply Transport,     Supply,         0,10, 8, -1, IndAuto,
 Probe Team,           Probe Team,     0,11, 4, -1, PlaNets,
 Alien Artifact,       Artifact,       0,12,36, -1, Disable,
-Conventional Payload, Conventional,  12, 0,12, -1, Orbital,
+Conventional Payload, Conventional,  18, 0,12, -1, Orbital,
 Tectonic Payload,     Tectonic,       0,13,24, -1, NewMiss
 Fungal Payload,       Fungal,         0,14,24, -1, NewMiss
 
