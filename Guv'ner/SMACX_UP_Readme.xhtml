@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Sid Meier’s Alpha Centauri &amp; Alien Crossfire Unofficial Patch</title>
+    <style type="text/css" media="screen" title="SMAC">
+    html {
+	font-family:'Arial Narrow', Arial, Corbel,Helvetica,'Nimbus Sans L','Liberation Sans',sans-serif;
+	padding:0 56px;
+	font-size:125%;
+	line-height:1.4;
+	color:#749c38;
+	background:#000
+	}
+body {
+	margin:1em auto;
+	max-width:40em;
+	}
+code {
+	font-size:.85em;
+	font-family:Consolas,"Bitstream Vera Sans Mono","Andale Mono",Monaco,"DejaVu Sans Mono","Lucida Console",monospace
+	}
+strong {
+	font-weight:normal;
+
+	color:#b8c060
+	}
+abbr {
+	border:none
+	}
+q:before {
+	content:"“"
+	}
+q:after {
+	content:"”"
+	}
+header {
+	text-align:center;
+	background:transparent url('data:image/png;base64,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') no-repeat;
+	margin-left:-56px;
+	padding-left:56px
+	}
+h1 {
+	font-size:2em;
+	}
+header p {
+	font-size:1.5em
+	}
+header,
+h2,
+h3,
+body>section::before,
+nav,
+footer {
+	font-family:'Alpha Centauri','gill sans','gill sans mt','gill sans mt pro','century gothic',corbel,sans-serif;
+	font-weight:normal
+	}
+header,
+h2,
+h3 {
+	color:#b8c060
+	}
+h2 {
+	font-size:1.6em;
+	margin-left:1em;
+	margin-top:.5em
+	}
+h3 {
+	font-size:1.2em
+	}
+sub,
+sup {
+    vertical-align:baseline;
+    position:relative
+	}
+sub {
+    bottom:-.22em
+	}
+sup {
+    bottom:.22em
+	}
+nav ol,
+footer ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%
+	}
+nav li,
+footer li {
+	display:inline
+	}
+nav a,
+footer a {
+	display:inline-block;
+	padding:.5em;
+	margin:.25em 0
+	}
+/* LINKS L. V. H. A.
+*/
+a:link { /* Unvisited links */
+	color:inherit;
+	text-decoration:none;
+	padding-bottom:.005em;
+	border-bottom:#b8c060 thin solid
+	}
+a:visited { /* Visited links */
+	color:inherit;
+	border-color:inherit
+	}
+a:link:hover {
+	color:#b8c060
+	}
+a:visited:hover {
+	color:inherit
+	}
+a:focus {
+	border-bottom:none
+	}
+a:active { /* As a link is activated. Moves the text down as though a button were depressed */
+	color:inherit;
+	position:relative;
+	top:.05em
+	}
+/* MENU LINKS L. V. H. A.
+*/
+nav a:link,
+footer a:link { /* Unvisited links */
+	font-size:.85em;
+	padding:.5em;
+	text-transform:uppercase;
+	color:#e46818;
+	border-radius:.25em;
+	text-decoration:none;
+	border-bottom:none;
+	background:#331307 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAEAgMAAAAytr2pAAAACVBMVEX///8zEwc5MhJzW/KTAAAAEElEQVQIHWNoYGhgcGBwAAAHCAGBquC8GQAAAABJRU5ErkJggg==')
+	}
+nav a:visited,
+footer a:visited { /* Visited links */
+	color:#e46818
+	}
+nav a:link:hover,
+footer a:link:hover {
+	color:#000;
+	background:#a1560f url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAEAgMAAAAytr2pAAAACVBMVEX///+IRRyhVg+iitDiAAAADklEQVQIHWNwYGJgAmIAAqAAh08jBqEAAAAASUVORK5CYII=')
+	}
+nav a:visited:hover,
+footer a:visited:hover {
+	color:#000
+	}
+nav a:focus,
+footer a:focus {
+	border-bottom:none
+	}
+nav a:active,
+footer a:active { /* As a link is activated. Moves the text down as though a button were depressed */
+	color:#000;
+	position:relative;
+	top:.05em
+	}
+footer ul li:first-child:after {
+	content:" > "
+	}
+footer {
+	margin:0 -1em;
+	padding:0 2em;
+	background-color:#749c38;
+	color:#000;
+	text-align:right
+	}
+del {
+	text-decoration:line-through;
+	color:#e46818
+	}
+body>section {
+    counter-increment: kman;
+    counter-reset: h2;
+    padding:0 1em;
+    margin:2em 0;
+    border-width:thin thin 0 thick;
+    border-style:solid;
+    border-color:#749c38;
+    position:relative;
+    display:block
+    }
+body>section::before {
+    content: counter(kman, lower-roman);
+    font-size: 100%;
+    text-align: center;
+    color: #000;
+    background-color: #749c38;
+    width:1.7em;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block
+    }
+body>section {
+	background:#000 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAEAgMAAAAytr2pAAAACVBMVEX///8NFyQAAAA/X8l4AAAADklEQVQIHWNwYGJgAmIAAqAAh08jBqEAAAAASUVORK5CYII=')
+	}
+    </style>
+  </head>
+  <body id="top">
+  <header role="banner">
+    <h1>Sid Meier’s Alpha Centauri &amp; Alien Crossfire Unofficial Patch</h1>
+    <p>Author: scient (Brendan Casey)
+    <br />Version: 2.00</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCwRpFSUFqo8AqrwGehb0sq69SOFWIA6ExsA8FVW8anCOBVHiNrotS7L1T/msqQFXK9j1Dr9E66E5wxWT3zZDjJEmpuv5K5DrvfQrpgaYp6SqbHwL1TSuF0jKmg4ii4OD8QxK+dJRNc6zWA9dYU0Qt17XmP+0H3VNRdim1l0o5o2zELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQISrYDAAx/K/6AgYjFMl63nvcyUTDNgl1ceZZx2SGQO9I1WZuAHcRrA1fZ/JhNMm2SshUUtlGfmfYCprDeFJ1q3YOwi2k34HpVfV7QBfyzU5zPbGgTOHolV0caF6F/q/tKRagF3yo6n3YZQ5B2NquVT8c6IT3VorkD40MTUY5QW34Sw9ubt6Fe2EW4kn7AyoMPOT1ioIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMwNDA1MjMwMTQxWjAjBgkqhkiG9w0BCQQxFgQU6n9EsieSrpLEc8IP3EpdmBeLjQswDQYJKoZIhvcNAQEBBQAEgYCjO5RrBT4R+2tQO8jJFWd1sDPt151CVz+nW8eO4dTmoNs2c5TQU27bGMaz16776GzjP8RiG9j9mCZEZJ6QTnggFZtKBsasMYWBMSljJxLC8uHEbjoDnVymMLDqP6W3NBoH12lcCVWSk+QaRx1Cx84pXTsj5Ake51l7HiHDh4C+6Q==-----END PKCS7----- " />
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+      <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    <nav>
+      <ol>
+        <li>
+          <a href="#intro">Introduction</a>
+        </li>
+        <li>
+          <a href="#installation">Installation</a>
+        </li>
+        <li>
+          <a href="#efixes">Engine Fixes</a>
+        </li>
+        <li>
+          <a href="#nfixes">Non-Engine Fixes</a>
+        </li>
+        <li>
+          <a href="#credits">Credits</a>
+        </li>
+        <li>
+          <a href="#version">Version History</a>
+        </li>
+      </ol>
+    </nav>
+  </header>
+  <section id="intro">
+  <h2>Introduction</h2>
+  <p>This is a comprehensive set of fixes to bugs, crashes, and exploits found in Sid Meier’s Alpha Centauri (<abbr>SMAC</abbr>) and Alien Crossfire (<abbr>SMAC</abbr>). The primary goal of this project is to fix bugs left after the official patches. A secondary objective is to expand upon the games features without modifying the existing mechanics to allow for more freedom.</p>
+  <p>Feel free to host the installer somewhere else besides
+  <a href="http://alphacentauri2.info/index.php?action=downloads">AC2</a>,
+  <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15">CGN</a>,
+  <a href="http://www.weplayciv.com/forums/downloads.php?do=cat&amp;id=1">WPC</a>, or
+  <a href="http://apolyton.net/local_links.php?catid=399">Apoly</a> as long as the contents of package aren’t altered in any way and the readme is included.</p>
+  <p>I am busy with multiple commitments so updates come whenever I have time. One of those commitments is my work on another unofficial patch project for the classic isometric RPG
+  <a href="http://spellholdstudios.net/ie/pst-fixpack">Planescape: Torment</a>. However, this project has mostly concluded.</p>
+  <p>I have no problem with other modders building off of my work as long as credit is given. If you’re interested in helping out in any capacity please contact me. I would like to add fixed versions of the localized text files to the installer, so if you’re interested in working with me to update the French, German or some other language let me know!</p>
+  <p>I encourage you to report any bugs, crashes, exploits or just ideas on either
+  <a href="http://alphacentauri2.info/index.php">AC2</a> or
+  <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15">CGN</a> forums which are the two primary homes of this project. You can also contact me on
+  <a href="http://www.weplayciv.com/forums/forumdisplay.php?f=7">WPC</a>,
+  <a href="http://apolyton.net/forums/forumdisplay.php?f=23">Apolyton</a>,
+  <a href="http://forums.civfanatics.com/forumdisplay.php?f=27">CFC</a>, or
+  <a href="http://www.shsforums.net/index.php?showforum=551">SHS</a> forums as well.</p>
+  <p>While my work on this project will go on regardless, if you enjoyed this patch please donate a few dollars via PayPal link at the top.</p>
+  <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Introduction</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+  </section>
+  <section id="installation">
+  <h2>Installation</h2>
+  <ul>
+    <li>Install the game (original individual CD’s, Planetary Pack, SOS, GOG).
+    </li>
+    <li>Next install the unofficial patch.
+    </li>
+    <li>
+Done!
+    </li>
+  </ul>
+  <p>
+Notes regarding the installer:
+  </p>
+  <ul>
+    <li>While always applying the <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr> base files, the <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> specific files will only be applied if <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> has been installed.</li>
+    <li>All of the official patches have been rolled into the installer. So once applied, you are getting the same effect as if you installed the <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr> 2000/XP Compatibility Update and if applicable <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> v2.0 patch.</li>
+    <li>Any files touched by the installer will be backed up to a new folder inside <abbr title="Sid Meier’s Alpha Centauri/Alien Crossfire">SMAC/X</abbr> directory. Also, an uninstaller is created that will allow you to roll back any changes made.</li>
+    <li>The installer can be applied to multiple <abbr title="Sid Meier’s Alpha Centauri/Alien Crossfire">SMAC/X</abbr> installs on the same system without any conflicts. There are no issues with applying the installer to a portable install. However, there are a few minor fixes related to the registry and system font that will only be in effect on a system where the installer was run.</li>
+  </ul>
+  <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Installation</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+  </section>
+<section id="efixes">
+  <h2>Engine Fixes</h2>
+  <section>
+  <h3>Version 1.0:</h3>
+  <ol>
+    <li>
+    <strong>[CRASH][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> As either the Caretakers or the Usurpers, opening up the Design Workshop and then switching back and forth between a
+    <q>Colony Pod</q> and other
+    <q>Equipment</q> can cause the text in the
+    <q>Special Ability</q> panel to become corrupted and crash the game upon exiting the Design Workshop. Fixed by increasing the memory allocation used to manipulate the caviar animation files (cvr) and possibly other buffer related problems. (credit to WBird784 for original fix)</li>
+    <li>
+    <strong>[CRASH]</strong> Scrambling air interceptors could cause the game to crash usually on larger maps. Even when the game didn’t crash, it would use incorrect altitude values.</li>
+    <li>
+    <strong>[CRASH]</strong> While moving units around near or at the poles, it is possible for the Y coordinate to exceed the map bounds and crash the game. Add handling to prevent the Y coordinate from ever going over the World Maps minimum or maximum values.</li>
+    <li>
+    <strong>[CRASH][MISC]</strong> Optimized out a number of legacy CPU checks that serve no purpose unless you’re using an extremely old computer. In some cases, these checks actually prevented the game from starting on newer CPU’s causing the game to crash. After removing these old checks, enabling <code>ForceOldVoxelAlgorithm</code> is no longer necessary. Disabling it may improve performance since setting <code>ForceOldVoxelAlgorithm</code> to 0 enables <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> to use your CPU’s
+    <a href="http://en.wikipedia.org/wiki/MMX_(instruction_set)">MMX capabilities</a> for the
+    <a href="http://en.wikipedia.org/wiki/Voxel">voxel algorithm</a>.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> The transport unit’s special ability
+    <q>Repair Bay</q> is rendered useless due to an incorrect check that would only give the healing bonus to ground transports inside a transport. Now, it will give the bonus to all ground units except ground transports.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Enhanced probes are now able to mind control bases or units normally immune due to high SE morale as stated in <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> manual. For units it’s purely the morale SE value so &gt;=3 acts as if it were 2 (cost doubled). For bases, the value is calculated from morale SE and any base facility modifiers (Covert Ops: +2, Genejack: −1). If final value is &gt;=3, it acts as if it were 2.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> While loading the ambient sound file for game, there is a mistake in faction id check for Believers causing it to use <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> default of
+    <code>aset1.amb</code> rather than their correct ambient sound file
+    <code>bset1.amb</code> .</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Enhanced probes don’t receive a penalty to survival probability when target faction has built Hunter-Seeker Algorithm. Instead, the success probability is erroneously given the penalty for a second time after it has already been displayed in UI. This could cause diminished success rate when it should have been higher. Fix corrects check so survival rather than success probability is modified.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Sealurk units will now not get a movement penalty when moving through Sea Fungus the same as
+    <q>Isle of the Deep</q> .</li>
+    <li>
+    <strong>[BUG]</strong> If a faction’s cumulative PROBE value is greater than three (SE morale, covert ops center) it is possible to
+    <q>mind control</q> their bases when they should be immune. If the University uses SE Knowledge putting PROBE value down to −4, it would act as if it were 0 erroneously increasing
+    <q>mind control</q> costs. After patch, PROBE values greater than 3 will always be immune to regular probes and values less than −2 will be treated as if they were −2.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed a check that was ending the turn for certain air units (choppers/missiles/grav) when entering a base that had no adjacent enemy units. The unit’s turn will now only end if when entering a base it has less then one turn remaining with no enemy units adjacent to the base.</li>
+    <li>
+    <strong>[BUG]</strong> Using
+    <q>Go to home base</q> command (shift-g) sends the unit to closest base rather than it’s actual home. Fixed so now the game retrieves the unit’s home base and sets a
+    <q>go to</q> waypoint similar to how a unit is recalled from within the base UI. If a home base cannot be found say if the unit is independent then the unit will go to the nearest base.</li>
+    <li>
+    <strong>[BUG][EXPLOIT]</strong> Setting more than one patrol waypoint for a unit with the spacebar causes the coordinate values to be stored incorrectly. If only two waypoints are set then it is just a display issue showing an incorrect amount of waypoints when the unit is clicked. However, if three waypoints are set, it causes the unit’s morale to be set as one of coordinates usually boosting it to elite or demon boil status. Also, when three waypoints are set the final waypoint would get set to some far off random location usually (0,0).</li>
+    <li>
+    <strong>[EXPLOIT]</strong> Using the right click menu to airdrop a unit moves the unit instantly and bypasses all of the required condition checks such as if unit has already moved or in a base or an airbase. Fixed so airdropping via right click now goes through same condition checks as if you used the hotkey
+    <q>I</q> .</li>
+    <li>
+    <strong>[EXPLOIT]</strong> Inside the base UI, after opening up the production queue window it is possible to then open the hurry command window, switch between bases and complete projects for less then their actual value. An issue with the queue panel is now fixed preventing certain parts of UI from becoming clickable when they shouldn’t.</li>
+    <li>
+    <strong>[EXPLOIT]</strong> When clicking on an unexplored square, the map should recenter on that square. However, if the square contains a base the map doesn’t recenter giving away hidden bases. Fixed so when an unexplored square with a base is clicked, the game will recenter like any other square.</li>
+    <li>
+    <strong>[EXPLOIT]</strong> It is possible to change another faction’s workers via
+    <q>Base Ops</q> (F4) if you have that faction infiltrated. It is now fixed so clicking the citizens of another faction in
+    <q>Base Ops</q> has no effect similar to garrisoned units.</li>
+    <li>
+    <strong>[EXPLOIT]</strong> It is possible to give the airdrop or artillery ability to a unit who didn’t already have it. This is done by using hotkey (I or F) on a unit that has the ability then switching to a different unit in bottom center window. The mouse cursor would still have the airdrop or artillery action ready to go and it is then possible to use it with the new unit bypassing any checks whether this unit can use the ability. Fixed by resetting the cursor when clicking the unit selection window.</li>
+    <li>
+    <strong>[MOD]</strong> Squares with both a Borehole and nutrient bonus don’t receive the nutrient bonus. If the
+    <q>Borehole Square</q> nutrient value defined in <code>alpha/x.txt</code> under <code>#RESOURCEINFO</code> is set to non-zero, a square with a Borehole will erroneously act as if it has a nutrient bonus. The check whether or not to give a
+    <q>Borehole Square</q> a nutrient bonus is now fixed from checking if borehole nutrient value is non-zero to checking if nutrient bonus is actually present in the square.</li>
+    <li>
+    <strong>[MOD]</strong> Fixed a check to use the
+    <q>Max artillery range</q> value defined under <code>#RULES</code> rather than a hardcoded value of 2. It is already set to 2 by default in <code>alpha/x.txt</code>.</li>
+    <li><p>
+    <del>
+    <strong>[MOD]</strong> Increase maximum number of all units on a map from 2048 to over 2 billion (2147483647). Also, increase value when native life stops spawning due to number of units on map from 1792 to 2147483391 (same difference of 256 between original values).</del></p>
+    <p><strong>NOTE:</strong> Removed as of v2.00 due to problems with fix.</p></li>
+    <li>
+    <strong>[UI]</strong> Removed a check when displaying probe success and survival probabilities that would drop the display of one if they’re both the same. For example, (50%, 50%) would just be (50%). This change makes the interface a little less confusing.</li>
+  </ol>
+  </section>
+  <section>
+  <h3>Version 2.0:</h3>
+  <ol>
+    <li>
+    <strong>[BUG][MISC]</strong> On launch of the game, fixed a registry check that could cause an error message to be incorrectly displayed regarding a
+    <q>Complete Install</q> not being performed. This was due to permission issues relating to UAC (Vista, Win7, Win8).</li>
+    <li>
+    <strong>[BUG][EXPLOIT]</strong> Units without the
+    <q>Amphibious Pods</q> ability can no longer move to a land square from a ocean base without there being a transport in either the land square or the ocean base. The previous buggy behavior would allow the unit in the ocean base to move to the land square as long as there was any existing unit in that square.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Prevent the Caretakers from being given the ability to start building the Secret Project
+    <q>Ascent to Transcendence</q> that goes against their own philosophy and would cause them to declare war on themselves if completed.</li>
+    <li>
+    <strong>[BUG][MOD]</strong> You can now evict probes from squares that have more than one probe or other units in the stack as long as the probe is the top most unit. When evicting, only the top most probe is sent back to its own faction’s territory.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> After the AI successfully completes the probe action of freeing a captured faction leader, it would instead reset a non-captured faction. The problem was that AI would always try to free the first faction, usually being the PC, regardless of whether this faction was eliminated or not. Now it will obtain all the potential captured faction leaders and free one randomly.</li>
+    <li>
+    <strong>[BUG][MOD][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Add references for the use of a new file
+    <code>movlistx.txt</code> to allow for expansion specific information text to be displayed after a Secret Project movie has been played.</li>
+    <li>
+    <strong>[MOD]</strong> The
+    <q>Nessus Canyon</q> landmark is now placed when generating random maps.</li>
+    <li>
+    <strong>[BUG]</strong> The
+    <q>attacking along road</q> combat bonus is now correctly applied for combat taking place on roads or magtubes. It is set to 0 by default in <code>alpha/x.txt</code>.</li>
+    <li>
+    <strong>[MOD]</strong> There are a number of unused pcx image files in relation to the random script event near a base of whether new resources are discovered or existing ones are depleted. The game will now display one of twelve images depending on the square (land, ocean) and resource type (minerals, energy, nutrients) instead of showing a general warning image for every event.</li>
+    <li>
+    <strong>[MOD]</strong> As part of the Datalinks, add the ability to set individual entries for armor and reactors (<code>help/x.txt</code>) as well as enable the display of the
+    <q>Sea Formers</q> unit.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed a bug where a
+    <q>Planet Buster</q> (PB) could detonate after being initially shot down. Each faction has one chance to defend against an incoming PB if they have bases or units in the blast radius. However, there is a check to give the owner of the ground zero square a chance to defend against the PB even if they have no units or bases in this territory. This check didn’t take into account whether or not the PB had already been shot down by another faction.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> When another faction detonates a
+    <q>Fungal Missile</q> near one of your bases, sometimes a script message would use an incorrect faction name as part of the text.</li>
+    <li>
+    <strong>[BUG][MOD][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> When detonated in or near ocean squares,
+    <q>Fungal Missiles</q> could spawn
+    <q>Mind Worms</q> or a
+    <q>Fungal Tower</q> in those ocean squares that would then die instantly after the end of turn. Now, a native sea unit will spawn in their place like an
+    <q>Isle of the Deep</q> or a
+    <q>Sealurk</q> .</li>
+    <li>
+    <strong>[BUG]</strong> Fixed an erroneous message that the use of nerve gas caused massive casualties at a base even when the attack failed.</li>
+    <li>
+    <strong>[MOD]</strong> Added the ability to set the reactor type (1–4) for <code>#UNITS</code> inside the <code>alpha/x.txt</code>. To do so, just add a comma after the Abil field with the value of the reactor you want for the unit. As an example,
+    <code>Colony Pod,</code>…<code>, 00000000000000000000000000,4</code> will give all
+    <q>Colony Pods</q> a Singularity Engine. If no value is set, it defaults to
+    <q>1</q> like original code. For <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> only, there are two exceptions for
+    <q>Battle Ogre MK2</q> and
+    <q>Battle Ogre MK3</q> where default isn’t
+    <q>1</q> but
+    <q>2</q> and
+    <q>3</q> respectively. You can still override the Ogres default.</li>
+    <li>
+    <strong>[BUG]</strong>
+    <q>Colony Pods</q> or
+    <q>Sea Colony Pods</q> can now be added to existing bases where fungus has spread to the base’s square. Also, ignore restrictions regarding land or ocean squares when adding pods to existing bases.</li>
+    <li>
+    <strong>[BUG]</strong> Due to an incorrect check, a message would fail to display telling you that a transport with no units has nothing to disembark when moved into a non-base land square.</li>
+    <li><del>
+      <strong>
+        [BUG]
+      </strong>
+      Changing start date for Perihelion event to be 2160 from 2190. This is to be consistent with info about Planet and cycle from readme regarding 80 year cycles (20 years near, 60 years far).</del>
+    </li>
+    <li>
+    <strong>[CRASH]</strong> Under extremely rare circumstances, the game would crash when an AI faction with no bases attempted to upgrade a unit.</li>
+    <li>
+    <strong>[BUG]</strong> Abandoning a base after building a
+    <q>Colony Pod</q> no longer skips the base production of the next base in line. This was caused by the upkeep function using incorrect base values after the abandoned base was destroyed.</li>
+    <li>
+    <strong>[BUG]</strong> Non-amphibious units can now move from a transport into Pact sea base since movement to and from Pact bases should be identical to your own.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Interludes <code>#6</code> and <code>#7</code> would display incorrect string values specific to either the Caretakers or Usurpers for non-Progenitor factions.</li>
+    <li>
+    <strong>[BUG]</strong> Interlude <code>#6</code> would sometimes be triggered by native life forms causing issues with the display strings and not making sense. This interlude (and its follow up <code>#7</code>) are designed only for actual rival factions.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed the rendering of the menu when using the scenario editor to change the faction id of the former owner of a base.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed the CC/BP combat bonus bug.</li>
+    <li>
+    <strong>[BUG][EXPLOIT]</strong> Fixed the AI base trading exploit. (credit to kryub)</li>
+    <li>
+    <strong>[EXPLOIT]</strong> Fixed the energy stockpile exploit. (credit to kyrub)</li>
+  </ol>
+  </section>
+    <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Engine Fixes</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+    </section>
+<section id="nfixes">
+  <h2>Non-Engine Fixes</h2>
+  <ol>
+    <li>
+    <strong>[BUG][MOD]</strong> Overhaul of all text files correcting spelling, grammar and various formatting issues by Guv’ner. See his projects readme for more details since the changes are too numerous to be mentioned beyond the highlighted bug fixes below. Also, as part of this an update fork of GooglyBoogly’s Datalinks v1.3 is included for <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>.
+    <ul>
+        <li>
+        <strong>[BUG]</strong> Enabled the
+        <q>Antigrav Struts</q> special ability for air units as stated in the manual (<code>alpha/x.txt</code>).</li>
+        <li>
+        <strong>[BUG]</strong> Disabled the
+        <q>Clean Reactor</q> special ability for Probe Teams because they already don’t require any support (<code>alpha/x.txt</code>).</li>
+        <li>
+        <strong>[BUG]</strong> Spartans now gain a free
+        <q>Skunkworks</q> in their bases with the discovery of
+        <q>Advanced Subatomic Theory</q> (<code>spartans.txt</code>).</li>
+    </ul></li>
+    <li>
+    <strong>[BUG]</strong> Amended base seizure notifications that would display incorrect plurality for the faction losing the base (<code>scripts.txt</code>).</li>
+    <li>
+    <strong>[BUG]</strong> Needlejet
+    <q>DATA</q> edit window via scenario editor wouldn’t render properly making it so you couldn’t edit the stats (<code>scripts.txt</code>).</li>
+    <li>
+    <strong>[BUG]</strong> When attempting to build a sea base inside another faction’s territorial waters, you were suppose to receive warning messages that were mislabeled (<code>scripts.txt</code>).</li>
+    <li>
+    <strong>[BUG]</strong> Added a new entry that was missing when you attempted to use
+    <q>B</q> or
+    <q>b</q> shortcuts with a non-combat unit that didn’t have a colony pod (<code>scripts.txt</code>).</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> When attempting to terraform an ocean square other than shelf, aquatic factions (Nautilus Pirates) were suppose to receive a warning message that was mislabeled (<code>scripts.txt</code>).</li>
+    <li>
+    <strong>[BUG]</strong> Fixed the display of the base facility quotes inside the Datalinks caused by incorrect ids. Added the missing quotes for <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> specific facilities transcribed from their audio clips (<code>blurbs/x.txt</code>).</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Fixed the display of an image used for Fungal payloads script events by renaming <code>fungalpayld_sm.pcx</code>.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Fixed the display of an image used for script events when Progenitor factions capture a human base by renaming <code>humref_sm.pcx</code>.</li>
+    <li>
+    <strong>[BUG][<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr>]</strong> Fixed the display of an image used for Spore Launcher script events by renaming <code>sporelnch_sm.pcx</code>.</li>
+    <li>
+    <strong>[BUG][INSTALLER]</strong> Create a registry entry that is usually missing to suppress the
+    <code>CDNOTFOUND</code> warning message on launch.</li>
+    <li>
+    <strong>[BUG][INSTALLER]</strong> Register the <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>
+    <q>Alpha Centauri</q> font with Windows so the game credits are displayed correctly.</li>
+    <li>
+    <strong>[MOD]</strong> Add new versions of Arial font to <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr> directory that will be more compatible with more recent monitors. If you notice graphical issues with the in game text, revert back to original font found inside backup directory.</li>
+    <li>
+    <strong>[BUG]</strong> Add <code>netcr_sm.pcx</code> that was missing for a script event when a Network Node crashes. The image was taken from the Planetary Pack’s Alternative Art folder with scan lines added by BU.</li>
+    <li>
+    <strong>[BUG]</strong> Add <code>rdminldp_sm.pcx</code> that was missing for a script event regarding minerals being depleted in conjunction with an engine fix. The image was taken from the Planetary Pack’s Alternative Art folder with scan lines added by BU.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed an audio clip for when Network Node is already linked from repeating itself by adding fractional amount of silence to end of clip.</li>
+    <li>
+    <strong>[BUG]</strong> Fixed an audio clip not playing when Missile Launcher weapons are used by remixing from stereo to mono (edited by chuft).</li>
+    <li>
+    <strong>[BUG]</strong> Fixed an audio clip not playing when Singularity Laser weapons are used by remixing from stereo to mono (edited by chuft).</li>
+  </ol>
+      <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Non-engine Fixes</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+  </section>
+  <section id="credits">
+  <h2>Credits</h2>
+  <p>So far beyond a few, all of the patches to the exe are done by myself. Thanks goes out to WBird784 for his crash fix and kyrub for his two fixes. A special thanks goes out to Guv’ner for his overhaul of all the text files. I’d like to thank a few people for their work behind the scenes. First off, a big thank you should go out to vyeh for the work he’s done in overseeing the administrative aspects of project. He has definitely helped motivate me by keeping in contact and setting up community at
+  <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15" target="_blank">CGN</a> for this project. Another big thank you goes to buster (the owner of
+  <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15" target="_blank">CGN</a>) for providing dedicated forums for project and being willing to host the unofficial patch. chuft for helping moderate and organize project forums on
+  <a href="http://www.civgaming.net/forums/forumdisplay.php?f=15" target="_blank">CGN</a>. Darsnan for making playtest scenarios used in testing of fixed game mechanics. GooglyBoogly for his Datalinks update and comprehensive testing of patch changes. BlackCat, BU, ete, Flygon, Googlie, Illuminatus, Kilkakon, Lord Avalon, Mart, Nevill, Petek, Psyringe, Rubin,
+  <a href="http://alphacentauri2.info/index.php" target="_blank">AC2 forums</a>,
+  <a href="http://www.weplayciv.com/forums/forumdisplay.php?f=7" target="_blank">WPC forums</a> and anyone else who has reported bugs, given feedback and support to this project. Qwinn for letting me use the html shell of his readme. And of course to the developers of <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr> and <abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> for making two great games that are still being played even to this day!</p>
+      <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Credits</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+  </section>
+  <section id="version">
+  <h2>Version History</h2>
+  <h3>07 May 2010 — Version 1.0</h3>
+  <ul>
+    <li>Initial
+    <q>Official</q> Release</li>
+  </ul>
+  <h3>07 April 2013 — Version 2.0</h3>
+  <ul>
+    <li>Streamlined installer</li>
+    <li>Major update to exe and other resource files</li>
+  </ul>
+      <footer>
+  <ul>
+  <li>Unofficial <abbr title="Sid Meier’s Alpha Centauri">SMAC</abbr>/<abbr title="Sid Meier’s Alien Crossfire">SMAC</abbr> Patch</li>
+  <li>Version History</li>
+  <li><a href="#top">Back to top</a></li>
+  </ul>
+  </footer>
+  </section>
+</body>
+</html>
