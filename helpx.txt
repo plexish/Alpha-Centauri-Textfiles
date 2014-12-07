@@ -506,8 +506,8 @@ Repairs damaged naval units quickly. Naval units built here
 receive two $LINK<morale=11> upgrades.
 ^
 Increases defense multiplier of base to one against naval attacks. 
-^This effectively increases defensive bonus by +75% 
-^(or +175% when combined with a $LINK<Tachyon Field=100005>).
+^This effectively increases defensive bonus by +100% 
+^(or +200% when combined with a $LINK<Tachyon Field=100005>).
 ^
 Defensive bonus does not apply against $LINK<Psi Attacks=15>.
  
@@ -518,8 +518,8 @@ two $LINK<morale=11> upgrades. Base must have an Aerospace complex before
 it can produce space-based improvements.
 ^
 Increases defense multiplier of base to one against air attacks. 
-^This effectively increases defensive bonus by +75% 
-^(or +175% when combined with a $LINK<Tachyon Field=100005>).
+^This effectively increases defensive bonus by +100% 
+^(or +200% when combined with a $LINK<Tachyon Field=100005>).
 ^
 Defensive bonus does not apply against $LINK<Psi Attacks=15>.
 ^

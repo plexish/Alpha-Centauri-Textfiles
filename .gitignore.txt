@@ -1,3 +1,5 @@
+/Guv'ner/*
+/ete/*
 .DS_Store
 A.cvr
 AA-ROVER.cvr

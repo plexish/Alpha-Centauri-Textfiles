@@ -1256,6 +1256,189 @@ USURPER,  USURPER
 ; First item is file name, second item is search key.
 ; These should always be the same except for debugging purposes.
 ;
+; AARDOM
+; acol
+; acolyte
+; adve
+; AGRI
+; ai
+; ANARCHY
+; androgyn
+; ANTIMIND
+; aol
+; Arcology Movement
+; ARTISAN
+; ATLANTS
+; barb
+; BARD
+; bladerunner
+; bree
+; britain
+; brother
+; busters
+; CAF
+; Canadians
+; Cannabis
+; CCF
+; CHILD
+; Children
+; church
+; clone
+; coastguards
+; cons
+; damned
+; darkjudges
+; dealers
+; Disciples
+; discmind
+; districts
+; DREAM
+; DROID
+; Eden
+; eighth
+; EMPATH
+; Empire
+; ene
+; energists
+; engineers
+; entr
+; exile
+; federateD
+; FEDERATION
+; former
+; France
+; free
+; FREELCE
+; GEBAZZU
+; GEM
+; GENX
+; guar
+; guerrillas
+; Gunrunners
+; hackers
+; hell
+; huxley
+; Hydros
+; IMP
+; Imperial
+; ISHBU
+; ISIS
+; Jedi
+; JEODDRA
+; JURIDIC
+; kamanra
+; Knowledge
+; legion
+; Marketeers
+; mcs
+; MERCHANTS
+; MERMAIDS
+; Microsoft
+; navy
+; neoborg
+; Nomades
+; PATH
+; peop
+; phs
+; Planetia
+; plat
+; poles
+; polis
+; Power
+; Privateers
+; PROD
+; protect
+; RANGERS
+; REPLCNT
+; Ronin
+; SAINTS
+; Seamen
+; SEEK
+; sf
+; SHINRA
+; Show
+; sith
+; SKYNET
+; slayers
+; smiley
+; storms
+; STRA
+; Subs
+; SYNDCT
+; synth
+; TERRAN
+; Texas
+; tobacco
+; unicon
+; unifascist
+; van
+; Yeer
+; YPUNAG
+;
+; #JarlWolf's
+; crimson
+; Imperium
+; Fascist
+; Machine
+; Valhalla
+; Clones
+;
+; Sigma's
+; PROCYON
+; TECHNO
+; APOLLO
+; AUTH
+; GENOME
+; LEVIA
+; PILGRIMS
+; SATORI 
+; 
+; Green1's
+; Exterminatus
+; 
+; ete's
+; annihilator
+;
+; Kilka's
+; blackband
+;
+;angels+
+;annihilator
+;ANTIMIND
+;crimson
+;TECHNO
+;usurper+
+
+; STRAND
+; RED
+; 
+
+; AAR Pilgrims
+; crimson
+; Imperium
+; PILGRIMS
+; GENOME
+; LEVIA
+; Machine
+
+; ### broken, will crash on load ###
+;
+; ACTIVE
+; ANCIENT
+; ChrionColonists
+; COLLECTIVE
+; DARK
+; ELITE
+; GENESIS
+; MARAUDERS
+; mech
+; mosaic
+; PEACERES
+; PERFECT
+; REPLCNT
+; TECH
+;
+
 #CUSTOMFACTIONS
 
 #MANDATE
