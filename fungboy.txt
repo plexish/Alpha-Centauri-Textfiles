@@ -79,8 +79,8 @@ anything on Earth. Around us is clear evidence of the will of a higher power.
 I bring the Vision to the blind eyes of men. I bring the Word to the deaf ears
 of men. I will make them see it. I will make them hear it.
 ^
-^      —Prophet Cha Dawn
-^         “Planet Rising”
+^       —Prophet Cha Dawn
+^       “Planet Rising”
 
 
 #DATALINKS1
@@ -94,7 +94,7 @@ of men. I will make them see it. I will make them hear it.
 ^+2 PLANET: {Devoted to promoting native growth}
 ^-1 INDUSTRY: {Reluctant to pollute environment}
 ^-1 ECON: {Disinterested in wealth and its trappings}
-^Free BROOD PIT with discovery of Centauri Genetics
+^Free {Brood Pit} with discovery of {Centauri Genetics}
 ^Mind Worms do double police duty: {Fear and reverence for native life}
 ^{May not make Wealth choice in Social Engineering}
 
@@ -134,6 +134,5 @@ Friendship!”
 
 “Kinship: deep respect: Manifold Six. Agreement.”
 “Will of Manifold Six: not so easily discerned. Treaty: none at this time.”
-
 
 # ; This line must remain at end of file

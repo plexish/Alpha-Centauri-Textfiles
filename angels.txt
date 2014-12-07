@@ -58,6 +58,45 @@ Ferrett’s Lair
 Moonshadow
 Alphaville
 Applet Way
+Computer Underground
+Cracker City
+Black Hat
+White Hat
+Phone Phreak
+New Hacker’s Dictionary
+Script Kiddie
+Ethical Hacking
+Penetration Test
+EC-Council
+Elite Hacker
+Masters of Deception
+Blue Hat
+Hacktivist Haven
+CS Scripting
+Network Enumeration
+SQL injection
+CS Request Forgery
+DOS Attack
+Leet Haxxor
+Vulnerability Scan
+Password Crack
+Packet Sniffer
+Port Scanner
+Firewall Failure
+Spoofing Attack
+Phishing Phorever
+Social Engineering
+Rootkit Revenge
+Cyber Spy
+Trojan Horse
+Computer Worm
+Key Logger
+1337speak
+Cyber Warfare
+Wanted Hacker
+Ghost in the Wires
+Art of Exploitation
+Wetware
 #END
 
 #WATERBASES
@@ -77,8 +116,8 @@ be free’ and all that—but anyone can set information free. The jazz is in how
 you do it, what you do it to, and in almost getting caught without getting
 caught. The data is 1’s and 0’s. Life is the jazz.
  ^
- ^        —Datatech Sinder Roze,
- ^           “Infobop”
+ ^      —Datatech Sinder Roze,
+ ^      “Infobop”
 
 #DATALINKS1
 ^LEADER: {Sinder Roze}
@@ -90,9 +129,9 @@ caught. The data is 1’s and 0’s. Life is the jazz.
 #DATALINKS2
 ^+2 PROBE: {Highly motivated computer specialists}
 ^-1 POLICE: {Decentralized, difficult to control}
-^Gain any tech known to 3 other factions with whom Angels have infiltration: {Wide-ranging covert activities}
-^-25% cost to PROBE TEAM actions: {Skilled at network access and control}
-^Free COVERT OPS CENTER with discovery of Pre-Sentient Algorithms
+^Gain any tech known to three other factions with whom Angels have infiltration: {Wide-ranging covert activities}
+^-25% cost to {Probe} actions: {Skilled at network access and control}
+^Free {Covert Ops Center} with discovery of {Pre-Sentient Algorithms}
 ^{May not make Power choice in social engineering.}
 
 #FACTIONTRUCE

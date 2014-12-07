@@ -92,8 +92,8 @@ God still watches and judges us. Evil lurks in the datalinks as it
 lurked in the streets of yesteryear. But it was never the streets
 that were evil.
 ^
-^        —Sister Miriam Godwinson,
-^           “The Blessed Struggle”
+^       —Sister Miriam Godwinson,
+^       “The Blessed Struggle”
 
 #DATALINKS1
 ^LEADER: {Sister Miriam Godwinson}
@@ -108,7 +108,7 @@ that were evil.
 ^+2 SUPPORT: {Citizens eager to defend faith}
 ^-2 RESEARCH:  {Suspicious of secular science}
 ^-1 PLANET:  {Believe Planet is their promised land}
-^Accumulates NO research points until MY 2110.
+^Accumulates {no} research points until MY 2110.
 ^{May not use Knowledge value in Social Engineering.}
 
 #FACTIONTRUCE
@@ -151,6 +151,4 @@ sign a Treaty of Friendship and worship together in peace.”
 “Greater power: brings peace. Treaty: agreement.”
 “Progenitor: not bow: your Lord’s will. Rejection.”
 
-
 # ; This line must remain at end of file
-

@@ -67,6 +67,35 @@ New Arzamas
 Otkrietia-Discovery
 Zoloto-Gold
 Edinstvo-Unity
+Large Hadron Collider
+Climatic Research Center
+Biome Project X
+Mendel Institute
+The Scientific Method
+The Singularity
+Transhumanism
+Experimental Protocol
+Double-blind
+Peer Review
+Biotic Survey
+Unified Field
+Relativity Base
+Zero Point
+Fountain of Knowlege
+Quantum Foam
+Stream of Consciousness
+Serendipity
+Helix
+Aurora
+Darwin
+Genius
+Schrodinger’s Dome
+Gagarin’s Reach
+Home of Hawkins
+Curiosity
+Hypothesis
+Taste of The Fruit
+The Caves of Steel
 #END
 
 #WATERBASES
@@ -75,6 +104,11 @@ Marine Biology Lab
 Oceanographic Lab
 Hydrothermal Institute
 Deep Sea Lab
+Strands of Life
+Tidal Research Base
+Reef Research Center
+The Soumarine Institute
+Gravity’s Pull
 #END
 
 #BLURB
@@ -83,8 +117,8 @@ smaller and smaller components. Behind atoms we find electrons,
 and behind electrons quarks. Each layer unraveled reveals new
 secrets, but also new mysteries.
 ^
-^        —Academician Prokhor Zakharov,
-^           “For I Have Tasted The Fruit”
+^       —Academician Prokhor Zakharov,
+^       “For I Have Tasted The Fruit”
 
 #DATALINKS1
 ^LEADER: {Dr. Prokhor Zakharov}
@@ -96,9 +130,9 @@ secrets, but also new mysteries.
 #DATALINKS2
 ^+2 RESEARCH:  {Brilliant research}
 ^-2 PROBE:  {Academic networks vulnerable to infiltration}
-^Free NETWORK NODE at every base
-^One BONUS TECH at beginning of game
-^Extra DRONE for every four citizens {(lack of ethics)}
+^Free {Network Node} at every base
+^One {Bonus Tech} at beginning of game
+^Extra {Drone} for every four citizens: {lack of ethics}
 ^{May not use Fundamentalist Politics.}
 
 #xxx
@@ -140,6 +174,5 @@ leave us to study in peace?”
 
 “Research: paramount: rescue of all inhabitants. Treaty: agreed.”
 “$NAME3: too secretive. Treaty: not advisable.”
-
 
 # ; This line must remain at end of file

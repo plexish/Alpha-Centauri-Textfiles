@@ -59,6 +59,17 @@ U.N. Planetary Trust
 U.N. Data Acquisition
 U.N. Disaster Relief
 U.N. Criminal Tribunal
+U.N. International Law
+U.N. Social Progress
+U.N. Human Rights
+U.N. Civil Rights
+U.N. General Assembly
+U.N. Security Council
+U.N. Secretariat
+U.N. Children’s Fund
+U.N. Secretary-General
+U.N. Charter
+U.N. University
 #END
 
 #WATERBASES
@@ -79,8 +90,8 @@ has begun its rapid slide into despotism. Beware of he who would
 deny you access to information, for in his heart he dreams himself
 your master.
 ^
-^        —Commissioner Pravin Lal,
-^           “U.N. Declaration of Rights”
+^       —Commissioner Pravin Lal,
+^       “U.N. Declaration of Rights”
 
 #DATALINKS1
 ^LEADER: {Commissioner Pravin Lal}
@@ -91,9 +102,9 @@ your master.
 
 #DATALINKS2
 ^-1 EFFICIENCY:  {U.N. style bureaucracy}
-^Extra TALENT for every four citizens: {Attracts intellectual elite}
-^May exceed HAB COMPLEX population requirements by 2.
-^Receives DOUBLE votes in elections for Planetary Governor and Supreme Leader.
+^{Extra Talent} for every four citizens: {Attracts intellectual elite}
+^May exceed normal {Hab Complex} population limit by two.
+^Receives {double} votes in elections for {Planetary Governor and Supreme Leader}.
 ^{May not use Police State Politics.}
 
 #FACTIONTRUCE
@@ -135,6 +146,4 @@ sign a Treaty of Friendship and help me create a unified human nation?”
 “Much better: one human nation. Your goal: agreed.”
 “$NAME3: seems to forget: talking to Progenitor. Offer: rejected.”
 
-
 # ; This line must remain at end of file
-

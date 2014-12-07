@@ -60,6 +60,11 @@ Morgan Aerodynamics
 Morgan Robotics
 Morgan Studios
 Morgan Gravitonics
+Morgan Plaza
+Morgan Stock Market
+Morgan Infrastructure
+Morgan Agriculture
+Morgan Derivatives
 #END
 
 #WATERBASES
@@ -68,6 +73,8 @@ Morgan Ocean Resources
 Morgan Marine
 Morgan Sea Platform
 Morgan Dock
+Morgan Port
+Morgan Fisheries
 #END
 
 #BLURB
@@ -77,8 +84,8 @@ as well as greed have followed us to the stars, and the rewards
 of wealth still await those wise enough to recognize this deep
 thrumming of our common pulse.
 ^
-^        —CEO Nwabudike Morgan,
-^           “The Centauri Monopoly”
+^       —CEO Nwabudike Morgan,
+^       “The Centauri Monopoly”
 
 #DATALINKS1
 ^LEADER: {CEO Nwabudike Morgan}
@@ -92,7 +99,7 @@ thrumming of our common pulse.
 ^-1 SUPPORT:  {Followers have expensive tastes}
 ^COMMERCE: {bonus increases value of treaties, pacts, loans}
 ^Begins with 100 extra energy credits.
-^Need HAB COMPLEX for bases to exceed size 4: {Creature comforts at a premium}
+^{Need Hab Complex} for bases to exceed size 4: {Creature comforts at a premium}
 ^{May not use Planned Economics.}
 
 #FACTIONTRUCE
@@ -134,4 +141,3 @@ sign a Treaty of Friendship and work toward other common goals?”
 “Progenitor: no benefit: human treaty policies. Decline: politely.”
 
 # ; This line must remain at end of file
-

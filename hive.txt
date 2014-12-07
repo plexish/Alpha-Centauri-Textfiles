@@ -73,6 +73,36 @@ Fellowship City
 People’s Endeavor
 Fecundity Tower
 Hole of Aspiration
+Serene Submission
+Collective Achievement
+Will’s Triumph
+Human Potential
+The Master’s Plan
+Masses Firmament
+Pioneers Waypoint
+Glory to the Group
+Dauntless Without End
+Society’s Architects
+Camaraderie Hearth
+Endurance Rising
+Harmony of Purpose
+Obedience and Duty
+Struggle’s Respite
+Your Tutor’s Words
+Discipline’s Path
+Obedience’s Reward
+Security Perimeter
+Shining Victory
+Enlightened Guidance
+Guiding Hand
+Serve the People
+Example to the Masses
+Strive for the Future
+Order’s Bulwark
+Citizens’ Resolve
+Triumph of the Group
+Strength of Resolve
+Inner Balance
 #END
 
 #WATERBASES
@@ -93,8 +123,8 @@ of group and the self of humanity. The goals of the group and the
 greater race are transcendent, and to embrace them is to achieve
 enlightenment.
 ^
-^        —Chairman Sheng-Ji Yang,
-^           “Essays on Mind and Matter”
+^       —Chairman Sheng-Ji Yang,
+^       “Essays on Mind and Matter”
 
 #DATALINKS1
 ^LEADER: {Sheng-Ji Yang}
@@ -107,7 +137,7 @@ enlightenment.
 ^+1 GROWTH:   {Rapid population growth}
 ^+1 INDUSTRY: {Brutal serfdom}
 ^-2 ECONOMY:  {Little political freedom}
-^Underground bunkers: {Free PERIMETER DEFENSE at each base}
+^Underground bunkers: Free {Perimeter Defense} at each base
 ^{May not use Democratic politics.}
 
 #FACTIONTRUCE
@@ -147,6 +177,5 @@ factions. Can’t we sign a Treaty of Friendship and coexist in peace?
 
 “Hive: safe ally. Treaty: admirable idea.”
 “Hive: control: too important. Ally: dangerous. Answer: no.”
-
 
 # ; This line must remain at end of file

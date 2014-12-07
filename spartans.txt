@@ -58,6 +58,17 @@ Fort Survivalist
 Fort Superiority
 Halls of Discipline
 Parade Ground
+Citadel Station
+Freedom Base
+Libertyville
+Counsel of Centurions
+Fort Standfast
+Bordermarch Redoubt
+Constant Vigilance
+Impact Shelter
+Blood and Iron
+Solid Domain
+Liberty Rock
 #END
 
 #WATERBASES
@@ -74,8 +85,8 @@ a geometric effect on overall military strength. Well-trained,
 well-equipped troops can stand up to many more times their lesser
 brethren than linear arithmetic would seem to indicate.
 ^
-^        —Colonel Corazon Santiago,
-^           “Spartan Battle Manual”
+^       —Colonel Corazon Santiago,
+^       “Spartan Battle Manual”
 
 #DATALINKS1
 ^LEADER: {Colonel Corazon Santiago}
@@ -89,6 +100,7 @@ brethren than linear arithmetic would seem to indicate.
 ^+1 POLICE:  {Highly disciplined followers}
 ^-1 INDUSTRY:  {Extravagant weapons are costly}
 ^Prototype units do not cost extra minerals.
+^Free retooling in category with the discovery of {Advanced Subatomic Theory}.
 ^{May not use Wealth value in Social Engineering.}
 
 #FACTIONTRUCE

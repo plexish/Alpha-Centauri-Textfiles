@@ -80,7 +80,7 @@ Tau Ceti Flowering: Horrors visited upon neighboring systems must never be repea
 Therefore: if it means the end of our evolution as a species, so be it.
 ^
 ^       —Caretaker Lular H’minee
-^          “Sacrifice : Life”
+^       “Sacrifice : Life”
 
 #DATALINKS1
 ^LEADER: {Caretaker Lular H’minee}
@@ -92,10 +92,10 @@ Therefore: if it means the end of our evolution as a species, so be it.
 #DATALINKS2
 ^+25% Defensive combat: {Can sense and manipulate “Resonance” fields}
 ^+1 PLANET: {Understand workings of Planet, the Sixth Manifold}
-^Free RECYCLING TANKS at every base
+^Free {Recycling Tanks} at every base
 ^”Energy Grid” at each base: {Increased infrastructure generates additional energy}
-^Make Planetfall with a Mk I Battle Ogre and extra Colony Pod
-^All prototyped combat units have 2-square sighting radius (“Resonance” sensitivity)
+^Make Planetfall with a {Mk I Battle Ogre} and {extra Colony Pod}
+^All prototyped combat units have two-square sighting radius (“Resonance” sensitivity)
 ^Can direct research efforts (rediscovering technology & infrastructure)
 ^Possess a physical scan of Planet’s surface
 
@@ -105,7 +105,7 @@ Therefore: if it means the end of our evolution as a species, so be it.
 “Pointless skirmishing: distracts from true menace: hated Usurpers. Blood Truce: requested and required immediately.”
 
 “We don’t want to stand in your way, $NAME3. Blood Truce : accepted.”
-“YOU are the true menace here, $NAME3. This war shall continue!”
+“[You] are the true menace here, $NAME3. This war shall continue!”
 
 #FACTIONTREATY
 #xs 440
@@ -114,6 +114,5 @@ Therefore: if it means the end of our evolution as a species, so be it.
 
 “We don’t plan to move anytime soon, $NAME3. But we can probably work together for the short term.”
 “Why hasten our own demise by working with your kind? Sorry, but we can’t sign your Treaty.”
-
 
 # ; This line must remain at end of file

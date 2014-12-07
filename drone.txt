@@ -61,6 +61,24 @@ Guild House
 Craftsman Keep
 Future’s Fulcrum
 Power Grid
+Overlords’ Despair
+Collective Organization
+Union Labor
+Despots’ Chagrin
+Collective Bargaining
+Tolpuddle Martyrs
+Rerum Novarum
+Workers’ Rights
+Minimum Wage
+Emperors’ Misery
+Black Grease
+Trade Union
+Chartist Movement
+Labour Government
+Wheels of Industry
+Class Struggle
+New Model Unions
+Hammer & Tongs
 #END
 
 #WATERBASES
@@ -95,7 +113,7 @@ Coral Warehouse
 ^+2 INDUSTRY: {Excellent craftsmen and skilled workers}
 ^-2 RESEARCH: {Emphasis on productivity instead of ‘blue-sky’ research}
 ^Revolting bases tend to join drones: {Offer a workingman’s paradise}
-^-1 DRONES in every base: {Working for common good reduces discontent}
+^-1 {Drones} in every base: {Working for common good reduces discontent}
 ^{May not use Green economics.}
 
 #FACTIONTRUCE
@@ -135,6 +153,5 @@ sign a Treaty of Friendship that we may coexist in peace.”
 
 “Treaty: beneficial to all. Idea: agreed upon.”
 “Presumption: interaction with $NAME3: somehow beneficial: incorrect. Answer: no.”
-
 
 # ; This line must remain at end of file

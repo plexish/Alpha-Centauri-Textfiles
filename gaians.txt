@@ -63,6 +63,29 @@ Garden of Paradise
 Thorny Vineyard
 Chiron Preserve
 Memory of Earth
+Mindworm Laboratory
+Fungus Formation
+Xenofields Preservation
+Garden of Eden
+Chiron’s Guardian
+Trees of Wisdom
+Echoing Forests
+City on Trees
+Harmony Valley
+Muirs Keep
+Red Hill City
+Peace with Planet
+Planetary Walk
+Greenhouse Complex
+The Greenwell
+Sun Soaked Fields
+Gnarled Roots
+Oaken Shadow
+Blessed Autumn
+Glowmite Towers
+The Green Way
+Nature’s Bounty
+Mother’s Love
 #END
 
 #WATERBASES
@@ -74,6 +97,7 @@ Falling Water
 Great Lagoon
 Sea Cradle
 Garden of Fishes
+Sea of Green
 #END
 
 #BLURB
@@ -82,8 +106,8 @@ beautiful stand of white pine, planted at the time of the first
 colonies. It represents our promise to the people, and to Planet
 itself, never to repeat the tragedy of Earth.
 ^
-^        —Lady Deirdre Skye,
-^           “Planet Dreams”
+^       —Lady Deirdre Skye,
+^       “Planet Dreams”
 
 #DATALINKS1
 ^LEADER: {Deirdre Skye}

@@ -83,6 +83,67 @@ Pennant Shoals
 The Anchorage
 Lorcha Roads
 Skeleton Key
+Slave Raid
+Violence at Sea
+Privateering
+Commerce Raiding
+Treasure Taken
+Gan Ning
+Jean Fleury
+Buccaneer Base
+Edward Teach
+Jack Rackham
+Henry Morgan
+Bartholomew Roberts
+Hendrick Lucifer
+Jean Lafitte
+Roberto Cofresi
+Boysie Singh
+Zheng Qi
+Orang Laut
+Moro Raiders
+Viking Age
+Zaporizhian Sich
+Zaporozhian Cossacks
+Don Cossacks
+Stenka Razin
+Pier Gerlofs Donia
+Wijerd Jelckama
+Fraxinet Moors
+Narentine Raiders
+Slavic Piracy
+Victual Brothers
+William Maurice
+Novgorodian Ushkuiniks
+Maniots
+Barbary Corsairs
+Hayreddin
+Oruç Reis
+Turgut Reis Dragut
+Koca Murat Reis
+Jan Janszoon
+John Ward
+Samuel Mason
+Bully Wilson
+Harpe Brothers
+Peter Alston
+Wiley Harpe
+Jonathan Brown
+Colonel Plug
+James Ford
+John A. Murrell
+Dan Seavey
+Kanhoji Angre
+Jolly Roger
+Buried Treasure
+Plank Walk
+Captain Kidd
+Pieces of Eight
+Treasure Map
+Thomas Tew
+Charles Vane
+William Fly
+Jack Rackham
 #END
 
 #BLURB
@@ -91,8 +152,8 @@ send their trade across it without a thought. Well, the sea doesn’t care about
 them, so it lets them pass. But we can give the sea a little hand in teaching the
 landlubbers a lesson in humility.
  ^
- ^     —Captain Ulrik Svensgaard
- ^         “The Ripple and the Wave”
+ ^      —Captain Ulrik Svensgaard
+ ^      “The Ripple and the Wave”
 
 #DATALINKS1
 ^LEADER: {Captain Ulrik Svensgaard}
@@ -104,11 +165,11 @@ landlubbers a lesson in humility.
 #DATALINKS2
 ^-1 EFFICIENCY {Individualistic mentality opposed to central organization}
 ^-1 GROWTH {Culture does not place high emphasis on family}
-^Free NAVAL YARD with discovery of Doctrine: Initiative: {Skilled shipwrights}
+^Free {Naval Yard} with discovery of {Doctrine: Initiative}: skilled shipwrights
 ^Enhancements may be built in ocean and trench squares with the discovery of Advanced Ecological Engineering: {Trained for life at sea}
-^Sea colony pod & sea former prototypes FREE: {Advanced oceanic technology}
+^Sea colony pod & sea former prototypes {free}: advanced oceanic technology
 ^Bonus mineral from ocean shelf squares: {Culture and technology adapted for the ocean}
-^Marine Detachment ability FREE to all naval combat units upon discovery of Adaptive Doctrine
+^{Marine Detachment ability} free for all naval combat units upon discovery of {Adaptive Doctrine}
 
 #FACTIONTRUCE
 #xs 440
@@ -147,6 +208,5 @@ Friendship and formalize what is already manifest.”
 
 “Land: Progenitor. Sea: $NAME3. Treaty: agreed.”
 “All Manifold Six: possible conflict. Treaty: unwise at this time.”
-
 
 # ; This line must remain at end of file
