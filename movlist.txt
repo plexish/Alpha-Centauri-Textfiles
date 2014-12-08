@@ -1,10 +1,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
-; Sid Meier's ALPHA CENTAURI
+; Sid Meier’s ALPHA CENTAURI
 ;
 ; Lookups for movies
 ;
-; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -50,7 +50,7 @@ theyTranscend, 37
 
 #HUMANGENOME
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -66,7 +66,7 @@ Arial, 1, 14,
 
 #COMMANDNEXUS
 Arial, 0, 10,
-55, 56, 1, 1, 
+55, 56, 1, 1,
 Arial, 1, 14,
 55, 56, 1, 1,
 Arial, 1, 14,
@@ -81,7 +81,7 @@ Arial, 1, 14,
 
 #WEATHERPARADIGM
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -99,7 +99,7 @@ not yet discovered the appropriate technologies.
 
 #MERCHANTEXCHANGE
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -114,7 +114,7 @@ Arial, 1, 14,
 
 #EMPATHGUILD
 Arial, 0, 10,
-55, 56, 1, 1, 
+55, 56, 1, 1,
 Arial, 1, 14,
 55, 56, 1, 1,
 Arial, 1, 14,
@@ -131,7 +131,7 @@ in elections for $LINK<Planetary Governor=28> and $LINK<Supreme Leader=10005>.
 
 #CITIZENSDEFENSE
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -139,7 +139,7 @@ Arial, 1, 14,
 160, 150, 320, 180,
 10, 4000,
 
-^^[The Citizens' Defense Force]
+^^[The Citizens’ Defense Force]
 ^
 ^
 ^^Counts as a $LINK<Perimeter Defense=100004> at every base.
@@ -147,7 +147,7 @@ Arial, 1, 14,
 
 #VIRTUALWORLD
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -158,14 +158,14 @@ Arial, 1, 14,
 ^^[The Virtual World]
 ^
 ^In addition to their normal effect, $LINK<Network Nodes=100008> count as
-$LINK<Hologram Theatres=100011> at each of your bases: reduce number of
+$LINK<Hologram Theaters=100011> at each of your bases: reduce number of
 $LINK<Drones=36> by
 two and increase $LINK<PSYCH=38> output of base by 50%.
 
 
 #PLANETARYTRANSIT
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -180,7 +180,7 @@ at all bases of population level 3 and under.
 
 #XENOEMPATHYDOME
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -198,7 +198,7 @@ Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
 
 #NEURALAMPLIFIER
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -213,7 +213,7 @@ Arial, 1, 14,
 
 #MARITIMECONTROL
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -229,7 +229,7 @@ counts as a $LINK<Naval Yard=100028> at every one of your bases.
 
 #PLANETARYDATALINKS
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -245,7 +245,7 @@ other $LINK<factions=150001>.
 
 #SUPERCOLLIDER
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -261,7 +261,7 @@ Arial, 1, 14,
 
 #ASCETICVIRTUES
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -272,13 +272,13 @@ Arial, 1, 14,
 ^^[The Ascetic Virtues]
 ^
 ^Increases the population limit of your bases by two, and increases
-your society's tolerance for use of police and military units
+your society’s tolerance for use of police and military units
 ($LINK<+1 POLICE=130005>).
 
 
 #LONGEVITYVACCINE
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -288,7 +288,7 @@ Arial, 1, 14,
 
 ^^[The Longevity Vaccine]
 ^
-^Two less $LINK<Drones=36> at every base if your $LINK<society's
+^Two less $LINK<Drones=36> at every base if your $LINK<society’s
 economics=120005> are $LINK<planned=120008>.
 One less Drone at every base if economics are $LINK<simple=120006>
 or $LINK<green=120009>.
@@ -298,7 +298,7 @@ $LINK<free market=120007> economies.
 
 #HUNTERSEEKER
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -313,7 +313,7 @@ infiltration of any kind.
 
 #PHOLUSMUTAGEN
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -323,7 +323,7 @@ Arial, 1, 14,
 
 ^^[The Pholus Mutagen]
 ^
-^Reduces effect of industry on Planet's ecology at all of your bases.
+^Reduces effect of industry on Planet’s ecology at all of your bases.
 Additionally, the $LINK<Fungus=14> confers on all of your units the same combat
 benefits normally reserved for alien lifeforms.
 Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
@@ -331,7 +331,7 @@ Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
 
 #CYBORGFACTORY
 Arial, 0, 10,
-55, 56, 1, 1, 
+55, 56, 1, 1,
 Arial, 1, 14,
 55, 56, 1, 1,
 Arial, 1, 14,
@@ -346,7 +346,7 @@ Arial, 1, 14,
 
 #THEORYOFEVERYTHING
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -362,7 +362,7 @@ Arial, 1, 14,
 
 #DREAMTWISTER
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -378,7 +378,7 @@ Arial, 1, 14,
 
 #UNIVERSALTRANSLATOR
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -389,12 +389,12 @@ Arial, 1, 14,
 ^^[Universal Translator]
 ^
 ^Two free $LINK<tech advances=140062> on completion. Any number of
-$LINK<Alien Artifacts=30007> can be cashed at this base.
+$LINK<Alien Artifacts=30007> can be linked at this base.
 
 
 #NETWORKBACKBONE
 Arial, 0, 10,
-56, 64, 1, 1, 
+56, 64, 1, 1,
 Arial, 1, 14,
 56, 64, 1, 1,
 Arial, 1, 14,
@@ -413,7 +413,7 @@ Society=120017>.
 
 #NANOFACTORY
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -430,7 +430,7 @@ units is reduced by 50%.
 
 #LIVINGREFINERY
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -446,7 +446,7 @@ on Social Engineering table.
 
 #CLONINGVATS
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -465,7 +465,7 @@ Control=120019> social engineering choices are eliminated.
 
 #SElFAWARECOLONY
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -482,7 +482,7 @@ all of your bases are considered to have an extra police unit.
 
 #CLINICAL_IMMORTALITY
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -498,7 +498,7 @@ for $LINK<Planetary Governor=28> and $LINK<Supreme Leader=10005>.
 
 #SPACEELEVATOR
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -518,7 +518,7 @@ waived.
 
 #SINGULARITYINDUCTOR
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -534,7 +534,7 @@ $LINK<ecological effects=26> of mineral production.
 
 #BULKMATTER
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -549,7 +549,7 @@ Arial, 1, 14,
 
 #TELEPATHICMATRIX
 Arial, 0, 10,
-55, 56, 1, 1, 
+55, 56, 1, 1,
 Arial, 1, 14,
 55, 56, 1, 1,
 Arial, 1, 14,
@@ -565,7 +565,7 @@ All of your $LINK<probe teams=30006> receive a $LINK<+2 morale=11> modifier.
 
 #VOICEOFPLANET
 Arial, 0, 10,
-55, 56, 1, 1, 
+55, 56, 1, 1,
 Arial, 1, 14,
 55, 56, 1, 1,
 Arial, 1, 14,
@@ -581,7 +581,7 @@ Any alien lifeforms you breed gain a $LINK<+1 lifecycle=11> bonus.
 
 #SMACXGRID
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -592,12 +592,12 @@ Arial, 1, 14,
 ^^[The Planetary Energy Grid]
 ^
 ^
-^^Free $LINK<Energy Bank=100007> in every base. 
+^^Free $LINK<Energy Bank=100007> in every base.
 ^^$LINK<Stockpile Energy=100069> produces 25% higher returns.
 
 #SMACXNETHACK
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -608,13 +608,13 @@ Arial, 1, 14,
 ^^[The Nethack Terminus]
 ^
 ^
-^^+1 $LINK<morale=11> to all $LINK<Probe Teams=30006> built. 
-^^-25% cost of probe team actions. 
+^^+1 $LINK<morale=11> to all $LINK<Probe Teams=30006> built.
+^^-25% cost of probe team actions.
 ^^All Probe teams have equivalent of Algorithmic Enhancement.
 
 #SMACXMANIFOLD
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -634,7 +634,7 @@ Arial, 1, 14,
 
 #SMACXCLOUDBASE
 Arial, 0, 10,
-56, 55, 1, 1, 
+56, 55, 1, 1,
 Arial, 1, 14,
 56, 55, 1, 1,
 Arial, 1, 14,
@@ -645,7 +645,7 @@ Arial, 1, 14,
 ^^[The Cloudbase Academy]
 ^
 ^
-^^Free Aerospace Complex in every base. 
+^^Free Aerospace Complex in every base.
 
 
 # ; This line must remain at end of file

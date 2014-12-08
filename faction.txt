@@ -8,23 +8,23 @@
 ;
 ; Factions—Names & personalities
 ;
-; formal, desc, noun, masc/fem, sing/plural, name, gender, ai-fight, ai-power, ai-tech, ai-wealth, ai-growth
+; formal, desc, noun, masc/fem, sing/plural, name, gender, ai-fight, ai-conquer, ai-discover, ai-build, ai-explore
 ;    title, characteristic, adjective
 ;    SPECIAL RULES, parameters, …
 ;    SOCIAL PRIORITY, setting, result
 ;
 ; formal      = Formal name of colony/group
 ; desc        = Description of basic ideology
-; noun        = Plural noun
-; masc/fem    = Is faction’s noun masculine or feminine
-; sing/plural = Is faction’s noun singular (Labyrinth) or plural (Gaians)
+; noun        = Plural one word name of colony/group
+; M/F         = Is faction’s noun masculine or feminine
+; 1/2         = Is faction’s noun singular (Labyrinth) or plural (Gaians)
 ; name        = Name of default leader
-; gender      = M or F (gender of leader)
+; M/F         = Is factions leader’noun masculine or feminine
 ; ai-fight    = -1,0,1 (willingness to use force to achieve goals)
-; ai-power    = 1 or 0 (interest in power)
-; ai-tech     = 1 or 0 (interest in knowledge)
-; ai-wealth   = 1 or 0 (interest in wealth)
-; ai-growth   = 1 or 0 (interest in population growth)
+; ai-conquer  = 1 or 0 (interest in power)
+; ai-discover = 1 or 0 (interest in knowledge)
+; ai-build    = 1 or 0 (interest in wealth)
+; ai-explore  = 1 or 0 (interest in population growth)
 ;
 ; title          = leader’s title
 ; characteristic = leader’s descriptive adjective

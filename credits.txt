@@ -1,15 +1,15 @@
 ;
-; Sid Meier's ALPHA CENTAURI
+; Sid Meier’s ALPHA CENTAURI
 ;
 ; Credits
 ;
-; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
 ;
 
 #CREDITS
 
 
-SID MEIER'S ALPHA CENTAURI DESIGNED BY
+SID MEIER’S ALPHA CENTAURI DESIGNED BY
 Brian Reynolds
 
 
@@ -23,7 +23,7 @@ AND
 Members of FIRAXIS Games
 
 
-SID MEIER'S ALIEN CROSSFIRE DESIGNED BY
+SID MEIER’S ALIEN CROSSFIRE DESIGNED BY
 Timothy Train
 
 
@@ -67,8 +67,8 @@ Jason Coleman
 
 
 ADDITIONAL PROGRAMMING
-Jeff Morris 
-David Evans 
+Jeff Morris
+David Evans
 Jason Coleman
 Brian Reynolds
 
@@ -90,7 +90,7 @@ Michael Ely
 
 FEATURING THE VOICES OF
 James Leibman (as Captain Ulrik Svensgaard)
-Jeff Gordon (as Progenitors Lular H'minee and Judaa Marr)
+Jeff Gordon (as Progenitors Lular H’minee and Judaa Marr)
 Frederick Serafin (as Foreman Domai)
 Allie Rivenbark (as Prime Function Aki Zeta-5)
 Christine Melton (as Datajack Sinder Roze)
@@ -160,29 +160,29 @@ Jeff Morris, FIRAXIS Games
 
 
 LEAD TESTER
-David "Killkwik" McCormick
+David “Killkwik” McCormick
 
 
 ASSISTANT LEAD TESTER
-Daryl "Red Evil" Humdy
+Daryl “Red Evil” Humdy
 
 
 TESTERS
-Eduardo "Duff" Buenviaje, Jr.
-T.J. "DeadMeat" Cipri
-Justin "WWSD" Holst
-Mike "Hot Pants" Hong
-Matthew "Shocktart" Lewis
-Joe "Muh Pipe" Norris
-Ausias "Gimpy" Salmeron-Viver
-John "Belial" Trest
+Eduardo “Duff” Buenviaje, Jr.
+T.J. “DeadMeat” Cipri
+Justin “WWSD” Holst
+Mike “Hot Pants” Hong
+Matthew “Shocktart” Lewis
+Joe “Muh Pipe” Norris
+Ausias “Gimpy” Salmeron-Viver
+John “Belial” Trest
 
 
 EA CUSTOMER QUALITY CONTROL
 CQC Manager: Joel Knutson
 
-CQC Representatives: 
-Benjamin Crick 
+CQC Representatives:
+Benjamin Crick
 Shane Ferguson
 Jacob Fernandez
 Darryl Jenkins
@@ -248,7 +248,7 @@ Atsuko Matsumoto
 
 
 LOCALIZATION LEAD
-John Pemberton 
+John Pemberton
 
 
 PRODUCTION SPECIALISTS
@@ -266,11 +266,11 @@ Jean-Luc Chabrier
 
 FRENCH TRANSLATORS
 Jean-Claude Ducerf (www.ducerftranslations.com)
-Nathalie Marlier (www.apex.fr) 
+Nathalie Marlier (www.apex.fr)
 
 
 FRENCH AUDIO
-Knockin' Boots Production, Paris/France
+Knockin’ Boots Production, Paris/France
 
 
 GERMAN TRANSLATION MANAGER
@@ -280,31 +280,31 @@ Christina Vollmer
 GERMAN TRANSLATORS
 Frank Dietz
 Christoph Niedermair
-Susanne van Eyl 
+Susanne van Eyl
 
 
 GERMAN AUDIO
-toneworx GmbH, Hamburg/Germany 
+toneworx GmbH, Hamburg/Germany
 
 
 SPANISH PRODUCT MANAGER
-Teo Alcorta 
+Teo Alcorta
 
 
 SPANISH LOCALIZATION MANAGER
-Julio Valladares 
+Julio Valladares
 
 
 SPANISH LOCALIZATION
-José Luis Rovira 
+José Luis Rovira
 
 
 ITALIAN TRANSLATION
-C.T.O. S.p.a., Bologna/Italy 
+C.T.O. S.p.a., Bologna/Italy
 
 
 MPEG Real-Time Libraries
-(c) 1996-1998 by MpegTV. All rights reserved.
+© 1996–1998 by MpegTV. All rights reserved.
 
 
 ORIGINAL ALPHA CENTAURI CREDITS
@@ -376,7 +376,7 @@ The Image Bank
 WPA Film Library
 
 
-"THE DANCING BABY"
+“THE DANCING BABY”
 is used with the permission
 of Kinetix, a division of
 Autodesk, inc.
@@ -416,33 +416,33 @@ Jim Smith
 
 
 ORIGIN SYSTEMS, INC.
-Paul "Paladin" Vaden, OSI QA Supervisor
-Rhea "Shalom" Shelley, OSI Project Leader
-Todd "Balls" Raffray, OSI Assistant Project Leader
-Tim "Quasimodo" Bell
-Brett "Beaker" Bonner
-Stacy "Skyline" Davidson
-Zafer "Z-man" Hamza
-Kent "Hand" Raffray
-Jon "Punchy" Shelus
-Stephen "Money Shot" VanWambeck
-Russ "Stranger" Wilkins
+Paul “Paladin” Vaden, OSI QA Supervisor
+Rhea “Shalom” Shelley, OSI Project Leader
+Todd “Balls” Raffray, OSI Assistant Project Leader
+Tim “Quasimodo” Bell
+Brett “Beaker” Bonner
+Stacy “Skyline” Davidson
+Zafer “Z-man” Hamza
+Kent “Hand” Raffray
+Jon “Punchy” Shelus
+Stephen “Money Shot” VanWambeck
+Russ “Stranger” Wilkins
 
 
 AND
-Kyle "Paddleboat" Drewke
-Brian "BIG tiny" DuBose
-Mackey "Rastuss" Fair
-Kenny "Hottman" Hott
-Matt "O.G. Mudbone" Lynch
-Grant "Rogue" McDaniel
-Brandon "Arashi" Salinas
-Jon "Stormer" Savinelli
-Lance "MudPuppy" Stites
+Kyle “Paddleboat” Drewke
+Brian “BIG tiny” DuBose
+Mackey “Rastuss” Fair
+Kenny “Hottman” Hott
+Matt “O.G. Mudbone” Lynch
+Grant “Rogue” McDaniel
+Brandon “Arashi” Salinas
+Jon “Stormer” Savinelli
+Lance “MudPuppy” Stites
 
 
 BUT NOT
-Chris "Binky" Launius
+Chris “Binky” Launius
 
 
 BETA TESTERS
@@ -497,7 +497,7 @@ David Ladyman
 
 
 Dedicated to the men and women of NASA,
-and all the world's space programs.
+and all the world’s space programs.
 
 
 
@@ -517,7 +517,7 @@ Eternity lies ahead of us, and behind.
 Have you drunk your fill?
 
 Lady Deirdre Skye,
-"Conversations with Planet",
+“Conversations with Planet”,
 Epilogue
 
 

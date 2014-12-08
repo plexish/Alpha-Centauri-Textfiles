@@ -36,7 +36,7 @@ Vegetation
 NONE
 Turn Complete
 Press ENTER to continue
-Sid Meier's ALPHA CENTAURI
+Sid Meier’s ALPHA CENTAURI
 Mission Map
 Planetary Scan
 Data Readout
@@ -131,7 +131,7 @@ Design New Unit
 Rating
 Power
 Min Cost
-...
+…
 Attack
 Rename
 Shielding
@@ -270,7 +270,7 @@ Network Datalinks
 Turn Clock
 Upkeep
 Players
-WHO'S WHO
+WHO’S WHO
 Tech
 Mil
 Pop
@@ -302,9 +302,9 @@ Punish
 Forest
 Forestation
 BATTLE PROFILE
--- DESTROYED --
--- EXTERMINATED --
--- CAPTURED --
+— DESTROYED —
+— EXTERMINATED —
+— CAPTURED —
 Loan Payment
 Loan Income
 Balance
@@ -350,7 +350,7 @@ Fungus
 Hasty
 Surprise
 Nerve Gas
-Psi Bonus
+Faction Psi
 Dream Twist
 Neural Amp
 Ocean Shelf
@@ -451,7 +451,7 @@ Non Combat
 Faction Dominance
 Uphill
 Anathema to Faction! (+1 DRONE)
-Don't Show As Popup
+Don’t Show As Popup
 Bomb $BASENAME0
 On Alert
 Air-to-Air Duel
@@ -491,9 +491,9 @@ Queue
 DEAL COMPLETE
 NO TRUCE
 Status
-Title
-Description
-Gender
+Title:
+Description:
+Gender:
 Producing
 Comm Frequency
 Submissive
@@ -571,8 +571,8 @@ Bombing run to here
 Airdrop here
 Orbital Insertion here
 Long Range Fire here
-Action...
-Terraform...
+Action …
+Terraform …
 Move cursor to here|Shift+Right
 Center on active unit|C
 Find a unit to move|V
@@ -604,11 +604,11 @@ Unit scan
 Terrain scan
 Faction dominance graph
 Faction dominance chart
-Who's who
+Who’s who
 Map editor scan
 Activate unit
-"Forget it!"
-"Almost..."
+“Forget it!”
+“Almost …”
 Threaten
 THREATENS!
 Offer all tech
@@ -655,7 +655,7 @@ Truce
 Treaty
 Pact
 Vendetta
-V'dtta
+V’dtta
 They get
 Gov
 Explore
@@ -786,8 +786,8 @@ Turns the Governor on or off
 Shows the resources being produced by this base
 Shows where the units supported by this base are
 Shows the origins of Drones and Talents at this base
-Changes this base's production orders
-Hurries this base's production
+Changes this base’s production orders
+Hurries this base’s production
 BUILD QUEUE:^Sets a series of production orders
 DESIGNING NEW UNIT
 MODIFYING PREVIOUS DESIGN
@@ -959,10 +959,10 @@ Unity Pods
 Cover Map
 Brush: One Square
 Brush: X-Cross
-Brush: 3x3 Diamond
+Brush: 3×3 Diamond
 Brush: Base Radius
-Brush: 5x5 Diamond
-Brush: 7x7 Diamond
+Brush: 5×5 Diamond
+Brush: 7×7 Diamond
 AUTOMATE UNITS
 UNIT ADVANCES
 MISCELLANEOUS
@@ -981,7 +981,7 @@ PREREQUISITE
 Captured Base
 Stapled Base
 Unlimited
-* Reactor
+× Reactor
 HIGHEST SCORE
 HIGHEST TECH LEVEL SCORE
 HIGHEST ENERGY RESERVES SCORE
@@ -1042,11 +1042,11 @@ SAVE
 wins
 EDITOR Mode
 PROTO
-PROTO: Scenario Editor function; toggles "prototype complete" flag.
+PROTO: Scenario Editor function; toggles “prototype complete” flag.
 Draw
 Allied Objectives
 RETIRE ALL
-RETIRE ALL: Scenario Editor function; clears all player prototypes.
+RETIRE ALL: Scenario Editor fuction; clears all player prototypes.
 Change owner
 Change former owner
 Iron Man
@@ -1063,8 +1063,8 @@ Cheating Penalty
 Scenario Editor
 USED EDITOR
 Type of Game
-New Game w/ Random Map
-New Game w/ Loaded Map
+New Game with Random Map
+New Game with Loaded Map
 Saved Game
 Lock Difficulty
 Rating

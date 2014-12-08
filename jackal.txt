@@ -1,9 +1,9 @@
 ;
-; Sid Meier's ALPHA CENTAURI
+; Sid Meier’s ALPHA CENTAURI
 ;
 ; General JACKAL Errors
 ;
-; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
 ;
 
 #FILEWIN_LOAD
@@ -74,15 +74,6 @@ No game was found.
 #caption Pick Game to Join
 #button Refresh
 
-
-#FILEFIND_NOCD
-#xs   320
-#caption Sid Meier's Alpha Centauri
-#button Retry
-The Alpha Centauri CD-ROM was not detected. Some game features
-will not function without the CD in the drive unless you have
-performed a "Complete Install".
-
 #NETCONNECT_JOIN_OR_CREATE
 #xs   320
 #caption Host or Join Session
@@ -94,7 +85,7 @@ Join
 #SELECTSERVICE
 #xs   320
 #caption MultiPlayer Setup
-Select a service...
+Select a service …
 
 #FILEWIN
 FILE NAME
@@ -107,7 +98,7 @@ We have encountered a problem with the DirectDraw configuration
 on your machine. The following error was returned: $SOMEERROR0. The game requires
 proper installation of DirectX, version 5 or later. If you would like to try
 installing or reinstalling DirectX, please be sure the game CD-ROM is in your drive, and
-press "Install DirectX" below.
+press “Install DirectX” below.
 
 #DPLAYERROR
 #xs   320
@@ -117,14 +108,7 @@ We have encountered a problem with the DirectPlay configuration
 on your machine. The following error was returned: $SOMEERROR0. The game requires
 proper installation of DirectX, version 5 or later. If you would like to try
 installing or reinstalling DirectX, please be sure the game CD-ROM is in your drive, and
-press "Install DirectX" below.
-
-#CDNOTFOUND
-#xs   320
-#caption Sid Meier's Alpha Centauri
-#button Retry
-The Alpha Centauri CD-ROM was not detected. Some game features
-will not function without the CD in the drive.
+press “Install DirectX” below.
 
 #HOSTOLDERVERSION
 #xs 320
@@ -135,14 +119,14 @@ version at $LINK<www.firaxis.com:0>.
 #CLIENTOLDERVERSION
 #xs 320
 #caption Version Incompatibility
-Sorry, but the host's version of the game ($HOSTVERSION0) is newer than your version ($CLIENTVERSION1). You may upgrade
+Sorry, but the host’s version of the game ($HOSTVERSION0) is newer than your version ($CLIENTVERSION1). You may upgrade
 your version at $LINK<www.firaxis.com:0>.
 
 #CLIENTNEWERVERSION
 #xs 320
 #caption Version Incompatibility
-Sorry, but the host's version of the game is older than your version and incompatible. In order to connect, this
-session's host will need to upgrade the game.
+Sorry, but the host’s version of the game is older than your version and incompatible. In order to connect, this
+session’s host will need to upgrade the game.
 
 #GUARANTEEDFAILURE
 #xs 320
@@ -180,8 +164,8 @@ permanently lost. You may (a) attempt to reestablish the connection
 game to finish in a new session.
 
 Drop host and become host.
-Don't drop host.
-Don't drop host, and adjust tolerance.
+Don’t drop host.
+Don’t drop host, and adjust tolerance.
 
 #NET_OKTODROPCLIENT
 #xs 440
@@ -193,8 +177,8 @@ permanently lost. You may (a) attempt to reestablish the connection,
 save the game to finish in a new session.
 
 Drop $PLAYERNAME0.
-Don't drop $PLAYERNAME0.
-Don't drop $PLAYERNAME0, and adjust tolerance.
+Don’t drop $PLAYERNAME0.
+Don’t drop $PLAYERNAME0, and adjust tolerance.
 
 #NET_OKTODROPHOSTS
 #xs 320
