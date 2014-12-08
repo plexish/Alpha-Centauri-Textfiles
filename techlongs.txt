@@ -1,9 +1,9 @@
 ;
-; Sid Meier's ALPHA CENTAURI
+; Sid Meier’s ALPHA CENTAURI
 ;
 ; Long Tech Descriptions
 ;
-; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+; Copyright © 1997, 1998 by Firaxis Games, Inc.
 ;
 
 
@@ -39,7 +39,7 @@ their power.
 The colonists must create new tools from the wreckage of
 the [Unity] to survive and expand. Early inquiries into
 {Applied Physics} emphasize this adaptation of existing
-technology for the new environment.  
+technology for the new environment.
 
 
 ##Social Psych
@@ -49,7 +49,7 @@ wakeup caused terrible conditions for the crew, but also
 generated valuable data concerning humans under extreme
 environmental stresses. Analysis of this data provides
 the first comprehensive, mathematical insight into the
-{Social Psychology} of humans.  
+{Social Psychology} of humans.
 
 
 ##Doctrine: Mobility
@@ -59,7 +59,7 @@ reconnaissance and self-defense in this most alien
 of environments. {Doctrine: Mobility} formalizes
 these cornerstones of military might, representing
 the first attempts at an organized defense policy
-on Planet. 
+on Planet.
 
 
 ##Centauri Ecology
@@ -71,7 +71,7 @@ understanding of the basics of {Centauri Ecology}
 provides the new arrivals with the tools they need to begin
 shaping the world around them-how plants grow, what
 geological structures exist, and how natural energy
-sources may be exploited on Planet. 
+sources may be exploited on Planet.
 
 
 ##Superconductor
@@ -81,31 +81,31 @@ and the nascent [Industrial Base (B1)] stimulate
 research into high-temperature {Superconductors},
 an advance long considered a ‘holy Grail’ by physical
 chemists. A {Superconductor} is a material
-that does not resist a flow of electrons. Using a 
-{Superconductor}, power can be transmitted at incredible 
-speeds over vast distances with no degradation. Bulky 
-and expensive cooling equipment for high-powered 
-machinery or weaponry becomes unnecessary, because these 
-materials remain cool and efficient as electricity passes 
+that does not resist a flow of electrons. Using a
+{Superconductor}, power can be transmitted at incredible
+speeds over vast distances with no degradation. Bulky
+and expensive cooling equipment for high-powered
+machinery or weaponry becomes unnecessary, because these
+materials remain cool and efficient as electricity passes
 through them.
 
 
 ##Nonlinear Mathematics
 #TECH8
 By using the power of [Information Networks (D1)] to speed
-calculations and encourage collaborations, researchers 
-make giant strides in the field of {Nonlinear Mathematics}, 
+calculations and encourage collaborations, researchers
+make giant strides in the field of {Nonlinear Mathematics},
 with significant military applications.
 
 
 ##Applied Relativity
 #TECH9
-Albert Einstein developed his theories of relativity between 
-1905 and 1916; complete explanations of his work may be found 
-in a number of sources. Later research into [Advanced Subatomic 
-Theory (B3)] and [Superconductors (C4)] demonstrated that his 
-postulates, though innovative for his time, were incomplete. {Applied 
-Relativity} takes Einstein's basic theories and updates them to
+Albert Einstein developed his theories of relativity between
+1905 and 1916; complete explanations of his work may be found
+in a number of sources. Later research into [Advanced Subatomic
+Theory (B3)] and [Superconductors (C4)] demonstrated that his
+postulates, though innovative for his time, were incomplete. {Applied
+Relativity} takes Einstein’s basic theories and updates them to
 encompass an understanding of newly-discovered phenomena.
 
 
@@ -119,7 +119,7 @@ application for {Fusion Power} was in bombs of enormous destructive
 power. With the advent of [Superconductors (C4)], and by using
 [Pre-sentient Algorithms (D5)] to monitor and control the released
 energy, future scientists finally have access to cheap, abundant, and
-reusable power. 
+reusable power.
 
 
 ##Silksteel Alloys
@@ -129,7 +129,7 @@ increased demand for new kinds of material that can withstand
 the incredible stresses of the robotic factories. Discoveries
 in [Advanced Subatomic Theory (B3)] provide engineers with
 these materials, dubbed {Silksteel Alloys} for their
-extraordinary tensile strength and flexibility.   
+extraordinary tensile strength and flexibility.
 
 
 ##Advanced Subatomic Theory
@@ -145,7 +145,7 @@ on the infinitesimal building blocks of the universe.
 ##High Energy Chemistry
 #TECH13
 Breakthroughs in [Applied Physics (C1)] and [Industrial Base
-(B1)] lead to an understanding of {High Energy Chemistry}. 
+(B1)] lead to an understanding of {High Energy Chemistry}.
 This discipline seeks to understand the properties and
 behavior of matter at very high temperatures, and results
 in new types of materials that remain in a stable plasma
@@ -160,7 +160,7 @@ itself. The discovery of {Frictionless Surfaces} proves
 the most useful application of these techniques. As the
 name implies, {Frictionless Surfaces} consist of materials
 that remain unaffected by friction, a force that slows
-down motion by changing kinetic energy into heat energy. 
+down motion by changing kinetic energy into heat energy.
 Moving objects made of these materials do not slow down
 as they come into contact with other matter.
 
@@ -170,32 +170,32 @@ as they come into contact with other matter.
 Driven by the requirements of [Doctrine: Initiative (E5)]
 and the mathematical models behind [Probability Mechanics
 (B7)],  {Nanometallurgy} techniques allow engineers to
-manipulate metals at the molecular level.  
+manipulate metals at the molecular level.
 
 
 ##Superstring Theory
 #TECH16
 One of the more contentious debates that ran through the
 physics community of 20th century Earth centered on the
-viability of {Superstring Theory}. This theory attempts 
-to unify the theory of gravity and other fundamental forces, 
-and posits that all characteristics exhibited by subatomic 
-particles, such as protons and neutrons, may be described as 
-vibrations of fundamental, one-dimensional ‘strings’. This 
-concept had been abandoned as untestable, until the development 
-of [Nonlinear Mathematics (C2)], which offers mathematical 
-models supporting {Superstring Theory}.  
+viability of {Superstring Theory}. This theory attempts
+to unify the theory of gravity and other fundamental forces,
+and posits that all characteristics exhibited by subatomic
+particles, such as protons and neutrons, may be described as
+vibrations of fundamental, one-dimensional ‘strings’. This
+concept had been abandoned as untestable, until the development
+of [Nonlinear Mathematics (C2)], which offers mathematical
+models supporting {Superstring Theory}.
 
 
 ##Advanced Military Algorithms
 #TECH17
 Military requirements have historically pushed technology
-forward, and no better example can be found than sophisticated 
-software development. From the first computers, designed to 
-calculate artillery shell trajectories, to {Advanced Military 
-Algorithms} developed from [Adaptive Doctrine (C3)] and 
-[Optical Computers (D3)], mankind has worked to extend 
-warfare into the digital world.  
+forward, and no better example can be found than sophisticated
+software development. From the first computers, designed to
+calculate artillery shell trajectories, to {Advanced Military
+Algorithms} developed from [Adaptive Doctrine (C3)] and
+[Optical Computers (D3)], mankind has worked to extend
+warfare into the digital world.
 
 
 ##Monopole Magnets
@@ -214,7 +214,7 @@ Breakthroughs in [Nanominiaturization (B8)] and
 [Nanometallurgy (E8)] lead to complex {Matter
 Compression} techniques. Using these techniques,
 scientists can create materials as dense as the
-inside of a star, with significant military and 
+inside of a star, with significant military and
 industrial applications.
 
 
@@ -224,7 +224,7 @@ Scientists have long worked towards a single theory
 that explains all fundamental forces in
 nature (gravity, magnetism, etc.)-a {Unified Field
 Theory}. Advances in [Monopole Magnets (B6)] and
-[Applied Relativity (D5)] help reveal these fundamental 
+[Applied Relativity (D5)] help reveal these fundamental
 mechanics of the universe.
 
 
@@ -241,8 +241,8 @@ gravitons-particle strings that ‘carry’ gravitational force.
 ##Polymorphic Software
 #TECH22
 On Earth, only theoretical mathematicians and entertainment
-software programmers used {Polymorphic Software}--self-modifying
-code--to any success. On Planet, the requirements of the budding
+software programmers used {Polymorphic Software}—self-modifying
+code—to any success. On Planet, the requirements of the budding
 [Industrial Base (B1)] and [Information Networks (D1)]
 spur widespread development of neural net applications that rewrite
 themselves in response to data inputs.
@@ -251,7 +251,7 @@ themselves in response to data inputs.
 ##Applied Gravitonics
 #TECH23
 Once physicists discover [Graviton Theory (E13)], they
-turn their attention to {Applied Gravitonics}--the control
+turn their attention to {Applied Gravitonics}—the control
 of gravity itself. By controlling and manipulating the
 graviton strings that carry gravitational force, mankind
 can levitate objects regardless of mass or proximity to
@@ -260,13 +260,13 @@ other objects.
 
 ##Quantum Power
 #TECH25
-Earth scientist Max Planck first coined the term "quantum"
+Earth scientist Max Planck first coined the term “quantum”
 to describe an individual particle of light. Planck though
 each quantum was indivisible, so that a fraction of a
 quantum could not exist. One of the more startling
 discoveries arising from [Unified Field Theory] was
 that individual quantum actually could be split into
-component sub-particles, much like atoms may be split 
+component sub-particles, much like atoms may be split
 through fission. The energy released by {Quantum Power}
 is several orders of magnitude greater than ordinary [Fusion Power].
 
@@ -280,14 +280,14 @@ of black holes-phenomena produced by points of infinitely
 dense matter that warp the fabric of space and time
 itself. Probes guided by onboard [Self-aware Machines
 (B11)] transmit the data necessary to replicate this
-natural occurence in controlled laboratory conditions.
+natural occurrence in controlled laboratory conditions.
 
 
 ##Controlled Singularity
 #TECH27
 As engineers quickly discovered, it’s one thing to
 understand [Singularity Mechanics (D12)] and another
-thing entirely to attempt {Controlled Singularity}--harnessing
+thing entirely to attempt {Controlled Singularity}—harnessing
 and directing the powers of a black hole. Breakthroughs in
 [Applied Gravitronics (E14)] finally make this technology
 possible, with a host of amazing and potent applications,
@@ -305,9 +305,9 @@ manipulation of time itself.
 ##Probability Mechanics
 #TECH29
 With operating systems powered by [Pre-sentient Algorithms
-(D5)], computers finally gain sufficient processing power 
-to unravel the mysteries of {Probability Mechanics}. With 
-this breakthrough, scientists can accurately predict many 
+(D5)], computers finally gain sufficient processing power
+to unravel the mysteries of {Probability Mechanics}. With
+this breakthrough, scientists can accurately predict many
 seemingly random events.
 
 
@@ -316,7 +316,7 @@ seemingly random events.
 The philosophy of [Cyberethics (B4)] and the technology of
 [Advanced Military Algorithms (E3)] pave the way for
 development of {Pre-sentient Algorithms}. These open-ended
-neural net programs can sort and process exebytes of data, 
+neural net programs can sort and process exebytes of data,
 ‘learning’ as they do so and adapting to the world they observe.
 
 
@@ -324,8 +324,8 @@ neural net programs can sort and process exebytes of data,
 #TECH31
 The requirements of [Advanced Spaceflight (E8)] and
 the possibilities inherent in [Matter Compression
-(C9)] lead to research in {Super Tensile Solids}. These 
-materials possess such strength as to be functionally 
+(C9)] lead to research in {Super Tensile Solids}. These
+materials possess such strength as to be functionally
 unbreakable in a natural environment.
 
 
@@ -340,11 +340,11 @@ Networks} emerges as a high priority for the scientific community.
 
 ##Digital Sentience
 #TECH33
-When utlilized as part of [Industrial Nanorobotics
+When utilized as part of [Industrial Nanorobotics
 (B9)], the [Mind\Machine Interface (B6)] provides
 the key spark needed by computers to at last achieve
 {Digital Sentience}. These new artificial intelligences
-have all the hallmarks of an individual organism: 
+have all the hallmarks of an individual organism:
 they respond to their environment, adapt to stimuli,
 and even exhibit advanced ‘personalities’ based on
 their respective abilities and  preferences.
@@ -356,9 +356,9 @@ Following the advent of [Digital Sentience (D10)],
 computers have only one great leap left: the evolution
 to {Self-Aware Machines}. Advances in [N-Space Compression [D11])
 provide the storage capacity needed for this technology.
-These machines are capable of complex, higher-order thinking, 
-and value the experience of existence as much as any biological being. 
-As with other living organisms, self-preservation is paramount 
+These machines are capable of complex, higher-order thinking,
+and value the experience of existence as much as any biological being.
+As with other living organisms, self-preservation is paramount
 for these specimens.
 
 
@@ -380,29 +380,29 @@ Mobility (E1)] did not go far enough in the development
 of fast attacks and quick reconnaissance, because Mobility
 only takes land forces into account. These leaders work
 to create the first navies on Planet,  based on {Doctrine:
-Flexibility}--co-ordination and co-operation between forces
+Flexibility}—co-ordination and co-operation between forces
 made possible by control of the sea.
 
 
 ##Intellectual Integrity
 #TECH37
 The search for {Intellectual Integrity} arises from
-questions posed by [Ethical Calculus (E2)] and [Doctine:
+questions posed by [Ethical Calculus (E2)] and [Doctrine:
 Loyalty (C2)]. According to this philosophy, valid
 wisdom comes merely from asking questions unburdened
-by prejudices. Only by shedding those pre-conceived 
-notions can we achieve the clarity of undistorted knowledge.  
+by prejudices. Only by shedding those pre-conceived
+notions can we achieve the clarity of undistorted knowledge.
 
 
 ##Synthetic Fossil Fuels
 #TECH38
-The extreme efficiency with which the neural net 
-fungus managed Planet's vast ecosystem kept extensive 
-deposits of organic material from forming over the epochs. 
-Because of this lack, the fossil fuels known on Earth 
-never developed, forcing early colonists to rely on less 
-efficient alternative sources of energy. However, advances 
-in [Advanced Subatomic Theory (B3)] and [Gene Splicing (B3)] 
+The extreme efficiency with which the neural net
+fungus managed Planet’s vast ecosystem kept extensive
+deposits of organic material from forming over the epochs.
+Because of this lack, the fossil fuels known on Earth
+never developed, forcing early colonists to rely on less
+efficient alternative sources of energy. However, advances
+in [Advanced Subatomic Theory (B3)] and [Gene Splicing (B3)]
 finally allow scientists to short-circuit the eons-long process,
 providing them with the {Synthetic Fossil Fuels} needed
 to build advanced vehicles and machinery.
@@ -411,10 +411,10 @@ to build advanced vehicles and machinery.
 ##Doctrine: Air Power
 #TECH39
 The colonists had brought the knowledge of atmospheric flight
-to Planet, but not the materials to build and maintain 
-large quantities of aircraft in Planet's harsh conditions. 
-With the discovery of [Synthetic Fossil Fuels (E4)]  for 
-materials and a renewed emphasis on [Doctrine: Flexibility (E2)], 
+to Planet, but not the materials to build and maintain
+large quantities of aircraft in Planet’s harsh conditions.
+With the discovery of [Synthetic Fossil Fuels (E4)]  for
+materials and a renewed emphasis on [Doctrine: Flexibility (E2)],
 pilots can again make the leap into the clouds.
 
 
@@ -431,7 +431,7 @@ in [Silksteel Alloys (E4)] and [Applied Relativity
 (D5)], subsequent scientific inquiry focuses on the
 manipulation of {Photon\Wave Mechanics} so that light,
 even powerful laser beams or intense solar emissions,
-can be diffused and warped as needed. 
+can be diffused and warped as needed.
 
 
 ##Mind/Machine Interface
@@ -448,7 +448,7 @@ mechanical and the biological.
 ##Nanominiaturization
 #TECH42
 [Monopole Magnets (B6)] and [Organic Superlubricants
-(C7)] lead to a revolution in engineering: {Nanominiaturization}. 
+(C7)] lead to a revolution in engineering: {Nanominiaturization}.
 With this technology, which emphasizes new assembly methods
 and high-tensile strength materials, microscopic machine
 components can be constructed and all manner of bulky,
@@ -465,19 +465,19 @@ guard’s emphasis on Mobility as the dominant military
 policy. Based also on the revelations of [Social Psych
 (B1)], the new {Doctrine: Loyalty} stresses extensive
 training, defensive facilities, and zealous dedication
-to faction leaders as the foundation for survival and 
-success in combat. {Doctrine: Loyalty} emphasizes a 
-two-way fealty--soldiers are expected to lay down their 
-lives without question, but in return they receive 
-respect, power, and positions of authority in the new 
+to faction leaders as the foundation for survival and
+success in combat. {Doctrine: Loyalty} emphasizes a
+two-way fealty—soldiers are expected to lay down their
+lives without question, but in return they receive
+respect, power, and positions of authority in the new
 social hierarchy.
 
 
 ##Ethical Calculus
 #TECH44
 Throughout the history of mankind, philosophers have
-grappled with the question: ‘How shall we then live?’ 
-{Ethical Calculus} lays down mathematical principles 
+grappled with the question: ‘How shall we then live?’
+{Ethical Calculus} lays down mathematical principles
 uncovered by [Social Psych (B1)] to address this question,
 essentially providing calculations and functions that
 determine appropriate behavior.
@@ -489,7 +489,7 @@ Early industry on Planet centered on the creation
 of a frontier [Industrial Base (B1)] featuring primitive
 assembly lines and simple currency instruments. Soon,
 leaders in the financial sectors push for a more
-comprehensive {Industrial Economics} policy to accommodate 
+comprehensive {Industrial Economics} policy to accommodate
 free trade and other strategies for multiplying capital.
 
 
@@ -502,7 +502,7 @@ virgin Planet. Lacking the traditional masses
 of Earth’s working class, leaders must now develop
 complete {Industrial Automation} for production
 and assembly , building modest factories where
-all repetitive nonskilled jobs, from janitor to
+all repetitive non-skilled jobs, from janitor to
 VP of Sales, are handled by sophisticated robotics.
 
 
@@ -523,8 +523,8 @@ and other aspects of the brain did not answer
 one basic question: what is the biological mechanism
 of self-awareness? Research into [Biogenetics (D1)]
 and [Social Psych (B1)] finally resolves the last of
-the {Secrets of the Human Brain}, providing an 
-understanding of the fundamentals of consciousness. 
+the {Secrets of the Human Brain}, providing an
+understanding of the fundamentals of consciousness.
 
 
 ##Gene Splicing
@@ -534,7 +534,7 @@ Calculus (E2)] removes opposition to genetic
 experimentation in plant and animal DNA, while
 advances in [Biogenetics (D1)] provide techniques
 for the incipient field of {Gene Splicing}. This
-technology allows researchers to insert new DNA 
+technology allows researchers to insert new DNA
 coding into existing genetic material so that
 entire traits, from disease resistance to a stable
 personality, can be copied from one organism and
@@ -556,7 +556,7 @@ population.
 #TECH51
 Early experiments in [Retroviral Engineering (C5)]
 and the [Mind\Machine Interface (B6)] paved the way
-for true {Biomachinery}--the full integration of
+for true {Biomachinery}—the full integration of
 man and machine at the cellular level.
 
 
@@ -566,11 +566,11 @@ The insatiable drive for efficiency spawned by
 [Industrial Automation (B3)] drives the development
 of {Neural Grafting}. This new technology, based
 on [Secrets of the Human Brain (D2)], allows
-attachment of  digital circuitry directly to 
+attachment of  digital circuitry directly to
 the neural cortex. With these implants, individuals
 willing to undergo {Neural Grafting} can enhance
 many aspects of their physical being, from heightened
-senses to faster reaction times. 
+senses to faster reaction times.
 
 
 ##Cyberethics
@@ -579,7 +579,7 @@ Widespread adoption of [Planetary Networks (D2)]
 and the philosophy of [Intellectual Integrity (E3)]
 allows for a coherent system of {Cyberethics},
 outlining the proper relationship of computers
-to society. 
+to society.
 
 
 ##Eudaimonia
@@ -591,14 +591,14 @@ possible by [Sentient Econometrics (E11)] and
 rooted in opposition to the excesses of [The
 Will to Power (E8)], {Eudaimonia} encourages
 each citizen to achieve happiness through striving
-to fulfill completely his or her potential; 
+to fulfill completely his or her potential;
 freedom, creativity, and individuality flourish
 in governments that adopt this philosophy.
 
 
 ##The Will to Power
 #TECH55
-Following the development of [Homo Superior (E7)], many 
+Following the development of [Homo Superior (E7)], many
 advocated a return to Friedrich Nietzsche’s philosophy
 of {The Will To Power}. This philosophy stresses
 the importance of strength, asceticism, and
@@ -611,10 +611,10 @@ qualities.
 #TECH56
 The [Secrets of Creation (D11)] and [Temporal
 Mechanics (B18)] brought sentient beings to the brink
-of a new era--the {Threshold of Transcendence}. 
+of a new era—the {Threshold of Transcendence}.
 In this transitional state, individuals begin preparations
-for the final stage of evolution, selling 
-possessions, cleansing their bodies according to 
+for the final stage of evolution, selling
+possessions, cleansing their bodies according to
 a new code of asceticism, and meditating alone
 and unprotected in the remote regions of Planet.
 
@@ -624,7 +624,7 @@ and unprotected in the remote regions of Planet.
 [Matter Editation (B16)] and the [Secrets of
 Alpha Centauri (D12)] point the way to one of
 the most celebrated concepts in science
-fiction--{Matter Transmission}. Transmitters
+fiction—{Matter Transmission}. Transmitters
 based on this technology disassemble objects
 into the smallest component sub-particles, then
 transmits those particles and their underlying
@@ -647,10 +647,10 @@ in the global ecosystem.
 #TECH59
 Industrial expansion often comes at the cost of
 ecological stability. The business practice of
-{Environmental Economics} addresses this problem 
-by finding and exploiting areas where 
-environmental and industrial concerns overlap, 
-such as sustainable resource use, eco-tourism, 
+{Environmental Economics} addresses this problem
+by finding and exploiting areas where
+environmental and industrial concerns overlap,
+such as sustainable resource use, eco-tourism,
 and organic product development. By combining
 the principles of [Industrial Economics (B2)]
 and [Ecological Engineering (E4)] in this new
@@ -667,7 +667,7 @@ these traits once again in the form of {Ecological
 Engineering}. Based on the discoveries of [Centauri
 Ecology (E1)] and [Gene Splicing (B3)], this research
 leads to new ways of thriving within the existing
-ecosystem, rather than competing with it. 
+ecosystem, rather than competing with it.
 
 
 ##Planetary Economics
@@ -691,7 +691,7 @@ including the field of [Environmental Economics
 thousands of construction projects undertaken
 since Planetfall, {Advanced Ecological Engineering}
 marks a new milestone in man’s ability to manipulate
-his environment. 
+his environment.
 
 
 ##Centauri Psi
@@ -702,7 +702,7 @@ of native life forms, but did not explain the
 mysterious and terrifying psionic attacks these
 creatures employ. Unlocking the mechanics of
 this directed, psychic assault requires intense
-investigation of {Centauri Psi}--the method used
+investigation of {Centauri Psi}—the method used
 by the Mind Worms to communicate and co-ordinate
 their assaults.
 
@@ -746,8 +746,8 @@ eventually, the stars themselves.
 #TECH67
 Breakthroughs in [Biomachinery (B9)] and [Doctrine:
 Initiative (E5)] paved the way for a new kind of organism
-that is equal parts biological and computer. The biological 
-aspect thrives at physical manipulation and emotional 
+that is equal parts biological and computer. The biological
+aspect thrives at physical manipulation and emotional
 experience, while the digital aspect excels at
 calculation and data processing. This {Homo Superior}
 integrates the best of biological and machine.
@@ -781,12 +781,12 @@ type of production and service.
 #TECH71
 Not long after the breakthroughs in [Super Tensile
 Solids (B10)] and [Self-aware Machines (B11)],
-engineers clamor to research the last major hurdle 
-in physical manipulation--{Matter Editation}. This
+engineers clamor to research the last major hurdle
+in physical manipulation—{Matter Editation}. This
 technique actually changes the physical structure of
 individual atoms, altering characteristics like
 energy states, spin, atomic weight, and the number
-of protons as though they were entries in a database. 
+of protons as though they were entries in a database.
 This technology is the modern embodiment of the ancient
 quest to turn lead into gold-transmutation of elements
 made possible by atomic manipulation.
@@ -795,13 +795,13 @@ made possible by atomic manipulation.
 ##Optical Computers
 #TECH72
 The widespread adoption of [Polymorphic Software
-(D2)] increased demand for faster computers. The 
-revolutionary {Optical Computers}, which use photons 
-traveling at the speed of light for binary 
-calculations,  prove nearly 70% faster than old 
-electron-based devices. Based on successes in 
-[Applied Physics (C1)], {Optical Computers} also 
-exponentially improve storage capacities and access 
+(D2)] increased demand for faster computers. The
+revolutionary {Optical Computers}, which use photons
+traveling at the speed of light for binary
+calculations,  prove nearly 70% faster than old
+electron-based devices. Based on successes in
+[Applied Physics (C1)], {Optical Computers} also
+exponentially improve storage capacities and access
 times.
 
 
@@ -812,7 +812,7 @@ the commercial potential of [Nanominiaturizion
 (B8)], and constructed factories based around
 {Industrial Nanorobotics}. These factories
 utilize traditional [Industrial Automation
-(B3)], but at a fraction of the size and cost. 
+(B3)], but at a fraction of the size and cost.
 Productivity skyrockets along with profitability,
 as tiny robots churn out new products for consumption.
 
@@ -823,7 +823,7 @@ The first contacts with Planetary sentience during
 research on [Centauri Meditation (E5)] caused widespread
 excitement among the scientific community. They propose
 using new [Retroviral Engineering (C5)] techniques to
-unravel {Centauri Genetics}--the structural blueprint
+unravel {Centauri Genetics}—the structural blueprint
 of native organisms.
 
 
@@ -867,27 +867,27 @@ return to {Orbital Spaceflight}.
 ##Progenitor Psych
 #TECH78
 The Progenitors, an alien race with past ties to Planet,
-return to reclaim their heritage. {Progenitor Psych} is 
-nothing more than a simple understanding of the aliens' 
+return to reclaim their heritage. {Progenitor Psych} is
+nothing more than a simple understanding of the aliens’
 culture, language, and aims. Humans cannot talk to either
 alien faction until they discover Progenitor Psych,
 or until the Progenitors discover [Social Psych (B1)].
 
 ##Field Modulation
 #TECH79
-The Progenitor race can sense and manipulate local fields 
-an untrained human cannot perceive without mechanical aid, 
+The Progenitor race can sense and manipulate local fields
+an untrained human cannot perceive without mechanical aid,
 including electricity and magnetism. Built on an understanding
 of [Progenitor Psych (E1)] and [Centauri Ecology (E1], the discovery
 of {Field Modulation} allows trained and equipped individuals to
-detect and perform basic manipulations of these 'resonance fields'.
+detect and perform basic manipulations of these ‘resonance fields’.
 
 ##Adaptive Doctrine
 #TECH80
-{Adaptive Doctrine} combines [Polymorphic Software (D2)] and 
+{Adaptive Doctrine} combines [Polymorphic Software (D2)] and
 [Doctrine: Flexibility (E2)] into a new military philosophy. This
-philosophy strives to match a doctrine to each battlefield, 
-rather than trying to making one supreme doctrine for all possible 
+philosophy strives to match a doctrine to each battlefield,
+rather than trying to making one supreme doctrine for all possible
 environments.
 
 ##Adaptive Economics
@@ -899,46 +899,46 @@ economic systems to match the needs of the populace.
 ##Bioadaptive Resonance
 #TECH82
 {Bioadaptive Resonance} is a more advanced form of [Field Modulation (C2)]
-that allows extensive manipulation of resonance fields. An understanding of 
+that allows extensive manipulation of resonance fields. An understanding of
 [Centauri Empathy (E3)] is essential to discovery of this technology.
 
 ##Sentient Resonance
 #TECH83
-{Sentient Resonance} is a further extension of [Bioadaptive Resonance (C4)] 
+{Sentient Resonance} is a further extension of [Bioadaptive Resonance (C4)]
 and [Centauri Psi (E8)] that allows the creation of self-aware resonance fields.
 
 ##Secrets of the Manifolds
 #TECH84
 Planet is only one of the grand experiments, or Manifolds, seeded throughout
 the galaxy by the Progenitor forebears. Discovery of the {Secrets of the Manifolds}
-allows the perception and contact of these other Planetary Manifolds. This 
-technology is based on an understanding of [Sentient Resonance (C9)] and 
+allows the perception and contact of these other Planetary Manifolds. This
+technology is based on an understanding of [Sentient Resonance (C9)] and
 [Secrets of Alpha Centauri (D12)].
 
 ##N-Space Compression
 #TECH85
-{N-Space Compression} is a Progenitor term that loosely translates as "The 
-shortest distance between two points is always 0, because any two points 
-in our perceivable space are actually contiguous in some other universe, 
-postulating infinity." Compression simply brings things that appear to be 
-in one place (such as a bulky missile payload) to another place (such as 
+{N-Space Compression} is a Progenitor term that loosely translates as “The
+shortest distance between two points is always 0, because any two points
+in our perceivable space are actually contiguous in some other universe,
+postulating infinity.” Compression simply brings things that appear to be
+in one place (such as a bulky missile payload) to another place (such as
 a missile warhead) at will (such as only at a time just prior to detonation).
-This technology is based on an understanding of [Orbital Spaceflight (D6)] and 
+This technology is based on an understanding of [Orbital Spaceflight (D6)] and
 [Biomachinery (B7)].
 
 ##String Resonance
 #TECH86
 Based on [Secrets of the Manifolds (D10)] and [Controlled Singularity (C15)],
-{String Resonance} allows the manipulation of resonance fields at even the "string" 
-level (the one-dimensional building blocks of matter). The ability to manipulate 
+{String Resonance} allows the manipulation of resonance fields at even the “string”
+level (the one-dimensional building blocks of matter). The ability to manipulate
 the very structure of the universe allows for awesome destructive power.
 
 ##Transcendent Thought
 #TECH88
 Based on [Controlled Singularity (C16)] and
 [Threshold of Transcendence (E19)], this technology
-finally unlocks the keys to the final stage of 
-evolution with {Transcendent Thought}--the
+finally unlocks the keys to the final stage of
+evolution with {Transcendent Thought}—the
 ability to contain a self-awareness, or ‘soul’,
 outside the bounds of a corporeal form. Those
 who so choose may now complete the Ascent to

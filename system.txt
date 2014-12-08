@@ -1,9 +1,9 @@
 ;
-; Sid Meier's ALPHA CENTAURI
+; Sid Meier’s ALPHA CENTAURI
 ;
 ; System Parameters
 ;
-; Copyright (c) 1997,1998 by Firaxis Games, Inc.
+; Copyright © 1997,1998 by Firaxis Games, Inc.
 ;
 ; We recommend that you do not alter this file
 ;
@@ -442,7 +442,7 @@
 0
 
 #VEHICLECOLORING
-95,  ALIEN RED--NOT REALLY USED.
+95,  ALIEN RED—NOT REALLY USED.
 197, CYBERNETIC TEAL
 244, PIRATES CYAN
 122, DRONES MAROON
@@ -452,7 +452,7 @@
 139, URSURPERS YELLOW
 
 #OLDVEHICLECOLORING
-95,  ALIEN RED--NOT REALLY USED.
+95,  ALIEN RED—NOT REALLY USED.
 142, GAIAN GREEN
 250, LABYRINTH BLUE  ;This was 208. No longer any good?? jsc
 62,  ARCHON WHITE
@@ -468,13 +468,13 @@
 70, ANTIMATTER PLATE
 
 #ARMORCOLORING_TRANS
-62, 30, 60, PROBABILITY SHEATH--color, beginning percent, ending percent
+62, 30, 60, PROBABILITY SHEATH—color, beginning percent, ending percent
 
 #VEH_LIGHT_DIR_MAP
 6, 4, 15
 
 #BOUNDARYPERCENTS
-0,  ALIEN PLAYER...NOT USED
+0,  ALIEN PLAYER … NOT USED
 50, GAIAN GREEN
 60, LABYRINTH BLUE  ;This was 208. No longer any good?? jsc
 50,  ARCHON WHITE
